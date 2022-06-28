@@ -36,10 +36,10 @@ if __name__ == '__main__':
             # print(pick.text)
             elem = pick.find_element(By.TAG_NAME, "a")
             href = elem.get_attribute('href')
-            new_href = copy.deepcopy(href)
-            print(new_href)
-            hrefs.append(new_href)
-        with open('resources/links.csv', 'w', encoding='utf-8') as f:
+            print(href)
+            hrefs.append(href)
+        time.sleep(1)
+        with open('../resources/links.csv', 'w', encoding='utf-8') as f:
             writer = csv.writer(f)
             for hr in hrefs:
                 writer.writerow([hr])

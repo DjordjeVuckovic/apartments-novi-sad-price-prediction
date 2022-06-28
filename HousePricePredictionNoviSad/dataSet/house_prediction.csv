@@ -1,5 +1,5 @@
 ,Price(EUR),Address,Rooms,Heating,SetUp,Elevator,Stores,Area(m2),Evident,State,Infrared,YearOfBuild,Floor
-0,69000,Bulevar Evrope,0.5,centralno grejanje,prazno,ima lift (1),"interfon, klima, Kanalizacija",24,uknjiženo,novo,useljivo,0,3/5
+0,69000,Bulevar Evrope,0.5,centralno grejanje,prazno,ima lift (1),"interfon, klima, Kanalizacija",24,uknjiženo,novo,useljivo,2015,3/5
 1,99500,Bistrica,2,centralno grejanje,namešteno,ima lift (1),"interfon, klima, Kanalizacija",39,uknjiženo,novo,useljivo,2022,6/7
 2,282000,Kej,4.5,centralno grejanje,namešteno,ima lift (1),"interfon, klima, Kanalizacija",137,uknjiženo,uobičajeno stanje,useljivo,1960,2/3
 3,67900,Nova Detelinara,2,centralno grejanje,namešteno,ima lift (1),"interfon, klima, Kanalizacija",47,uknjiženo,uobičajeno stanje,useljivo,1965,3/4

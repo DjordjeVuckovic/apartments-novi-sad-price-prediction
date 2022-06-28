@@ -35,7 +35,7 @@ def calculate_year(elem, years):
 
 if __name__ == '__main__':
     list_dictionary = {}
-    with open("resources/apart.json", "r", encoding='utf-8') as infile:
+    with open("../resources/apart.json", "r", encoding='utf-8') as infile:
         list_dictionary = json.load(infile)
     prices = []
     addresses = []
@@ -93,6 +93,8 @@ if __name__ == '__main__':
                            nams[:], lifts[:], stores[:], areas[:], evidents[:], states[:], availables[:],
                            yearOfBuild[:], floors[:]))  # list of each players name and salary paired together
     temp_df = pd.DataFrame(data_tuples, columns=['Price(EUR)', 'Address', 'Rooms', 'Heating',
-                                                 'SetUp','Elevator','Stores','Area(m2)','Evident','State','Infrared','YearOfBuild','Floor'])  # creates dataframe of each tuple in list
-    temp_df.to_csv('dataSet/house_prediction.csv',encoding='utf-8')
+                                                 'SetUp', 'Elevator', 'Stores', 'Area(m2)', 'Evident', 'State',
+                                                 'Infrared', 'YearOfBuild',
+                                                 'Floor'])  # creates dataframe of each tuple in list
+    temp_df.to_csv('dataSet/house_prediction.csv', encoding='utf-8')
     print(temp_df)
