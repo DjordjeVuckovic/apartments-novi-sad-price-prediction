@@ -41,11 +41,14 @@ def parse_location(location, current_locations):
         locations.append(splited[1])
 
 
-
 if __name__ == '__main__':
     list_dictionary = {}
+    list_dictionar1 = {}
     with open("../resources/finalApartments.json", "r", encoding='utf-8') as infile:
         list_dictionary = json.load(infile)
+    with open("../resources/finalApartments2.json", "r", encoding='utf-8') as infile:
+        list_dictionary1 = json.load(infile)
+    list_dictionary.extend(list_dictionary1)
     prices = []
     addresses = []
     rooms = []
@@ -69,8 +72,8 @@ if __name__ == '__main__':
         addresses.append(list_dictionary[i]['Adresa:'])
         grs.append(list_dictionary[i]['Grejanje:'])
         nams.append(list_dictionary[i]['Nameštenost:'])
-        lifts.append(list_dictionary[i]['Lift:'])
-        stores.append(list_dictionary[i]['Opremljenost:'])
+        lifts.append(list_dictionary[i].get('Lift:'))
+        stores.append(list_dictionary[i].get('Opremljenost:'))
         evidents.append(list_dictionary[i]['Uknjiženost:'])
         states.append(list_dictionary[i].get('Stanje:'))
         availables.append(list_dictionary[i].get('Useljivo:'))
@@ -100,7 +103,7 @@ if __name__ == '__main__':
     # print(availables)
     # print(yearOfBuild)
     # print(floors)
-    data_tuples = list(zip(prices[:],locations[:], addresses[:], rooms[:], grs[:],
+    data_tuples = list(zip(prices[:], locations[:], addresses[:], rooms[:], grs[:],
                            nams[:], lifts[:], stores[:], areas[:], evidents[:], states[:], availables[:],
                            yearOfBuild[:], floors[:]))  # list of each players name and salary paired together
     temp_df = pd.DataFrame(data_tuples, columns=['Price(EUR)', 'Location', 'Address', 'Rooms', 'Heating',

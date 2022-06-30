@@ -1127,3 +1127,472 @@
 1125,85000,Bulevar Evrope,BULEVAR EVROPE,2,centralno grejanje,namešteno,ima lift (1),kablovska,37,uknjiženo,uobičajeno stanje,useljivo,1960,5/6
 1126,88580, Detelinara,Nova Detelinara,2.5,centralno grejanje,namešteno,ima lift (1),kablovska,50,uknjiženo,uobičajeno stanje,useljivo,1960,visoko
 1127,415300, Stari Grad,Novi Sad - Centar,4,centralno grejanje,namešteno,ima lift (1),kablovska,112,uknjiženo,uobičajeno stanje,useljivo,1933,visoko
+1128,92700, Detelinara,Nova Detelinara,2,centralno grejanje,prazno,,,42,uknjiženo,uobičajeno stanje,useljivo,0,2/5
+1129,212500, Stari Grad,Maksima Gorkog,4.5,centralno grejanje,prazno,,,97,uknjiženo,uobičajeno stanje,useljivo,0,visoko
+1130,85000,Bulevar Evrope,Bulevar Evrope,1.5,centralno grejanje,prazno,ima lift (1),,37,uknjiženo,uobičajeno stanje,useljivo,0,5/5
+1131,52920,Adice,Adice,1.5,centralno grejanje,prazno,ima lift (1),,37,uknjiženo,uobičajeno stanje,useljivo,0,2/2
+1132,42000, Sajmište,Bore Prodanovića,0.5,grejanje na struju,prazno,ima lift (1),,21,uknjiženo,uobičajeno stanje,useljivo,0,2/2
+1133,82400, Detelinara,KOPERNIKOVA,1.5,centralno grejanje,prazno,ima lift (1),,38,uknjiženo,uobičajeno stanje,useljivo,0,2/2
+1134,145000, Detelinara,JANKA VESELINOVICA,3.5,centralno grejanje,prazno,ima lift (1),,105,uknjiženo,uobičajeno stanje,useljivo,0,5/5
+1135,72150,Salajka,Branka Radičevića,1,etažno grejanje,prazno,ima lift (1),klima,37,uknjiženo,novo,useljivo,0,2.
+1136,116550, Veternik,Veternička Rampa,3.5,etažno grejanje,prazno,ima lift (1),klima,73,uknjiženo,uobičajeno stanje,useljivo,2022,prizemlje/2
+1137,153500, Liman,Liman 2,1.5,centralno grejanje,prazno,ima lift (1),klima,50,uknjiženo,uobičajeno stanje,useljivo,1900,6/8
+1138,66950, Detelinara,Nova Detelinara,0.5,centralno grejanje,prazno,ima lift (1),klima,25,uknjiženo,uobičajeno stanje,useljivo,2009,visoko
+1139,94760,Bulevar Evrope,Bulevar Evrope,1.5,centralno grejanje,prazno,ima lift (1),klima,38,uknjiženo,renovirano,useljivo,2009,visoko
+1140,97130, Stari Grad,Spens,1.5,centralno grejanje,prazno,ima lift (1),klima,41,uknjiženo,renovirano,useljivo,1950,1/3
+1141,51500, Banatić,Železnička stanica,1,centralno grejanje,prazno,ima lift (1),klima,30,uknjiženo,renovirano,useljivo,1978,5/5
+1142,1,Sajmište,Sajmište,2.5,centralno grejanje,prazno,ima lift (1),klima,56,uknjiženo,renovirano,useljivo,2009,1/3
+1143,179400,Bulevar Evrope,Bulevar Evrope,4,centralno grejanje,prazno,ima lift (1),klima,97,uknjiženo,u izgradnji,useljivo,2009,visoko
+1144,155000, Stari Grad,Novi Sad - Centar,3.5,centralno grejanje,prazno,ima lift (1),klima,99,uknjiženo,u izgradnji,useljivo,2009,3/3
+1145,154500, Stari Grad,Novi Sad - Centar,4,centralno grejanje,prazno,ima lift (1),klima,99,uknjiženo,uobičajeno stanje,useljivo,1935,3/3
+1146,159650, Adamovićevo Naselje,Cara Dušana,2,etažno grejanje,prazno,ima lift (1),klima,57,uknjiženo,uobičajeno stanje,useljivo,2009,5/8
+1147,82400,Novo Naselje,Novo Naselje,1.5,centralno grejanje,prazno,ima lift (1),klima,53,uknjiženo,uobičajeno stanje,useljivo,1986,prizemlje/4
+1148,85000,Bulevar Evrope,Bulevar Evrope,1.5,centralno grejanje,prazno,ima lift (1),klima,37,uknjiženo,novo,useljivo,1986,prizemlje/4
+1149,99500,Grbavica,grbavica,2,centralno grejanje,prazno,ima lift (1),telefon,52,uknjiženo,novo,useljivo,1986,2/5
+1150,104240, Detelinara,detelinara,3.5,centralno grejanje,prazno,ima lift (1),telefon,88,nije uknjiženo,u izgradnji,useljivo,1986,5/5
+1151,166050,Bulevar Oslobođenja,Bulevar Oslobođenja,3,centralno grejanje,prazno,ima lift (1),telefon,62,uknjiženo,uobičajeno stanje,useljivo,2012,3/6
+1152,118900,Telep,Telep,2.5,grejanje na gas,prazno,ima lift (1),telefon,58,uknjiženo,uobičajeno stanje,useljivo,2023,2/3
+1153,111760,Telep,Telep,2.5,grejanje na gas,prazno,ima lift (1),telefon,54,uknjiženo,uobičajeno stanje,useljivo,2023,3/3
+1154,118250,Telep,Telep,2.5,grejanje na gas,prazno,ima lift (1),telefon,58,uknjiženo,uobičajeno stanje,useljivo,2023,visoko
+1155,78300, Stari Grad,Novi Sad - Centar,3,centralno grejanje,prazno,ima lift (1),telefon,76,uknjiženo,uobičajeno stanje,useljivo,2022,suteren/5
+1156,298700,Jugovićevo,Jugovićevo,2,centralno grejanje,prazno,ima lift (1),telefon,113,uknjiženo,renovirano,useljivo,2022,4/4
+1157,267800,Sajmište,Sajmište,5,centralno grejanje,namešteno,ima lift (1),telefon,142,uknjiženo,renovirano,useljivo,2022,4/4
+1158,72650,Petrovaradin,Petrovaradin,1.5,grejanje na gas,prazno,ima lift (1),telefon,39,uknjiženo,renovirano,useljivo,2022,1/3
+1159,31000,Telep,ROMANIJSKA,1,centralno grejanje,prazno,ima lift (1),telefon,13,uknjiženo,renovirano,useljivo,2022,1/3
+1160,78300, Banatić,KISACKA,1,centralno grejanje,prazno,ima lift (1),telefon,29,uknjiženo,renovirano,useljivo,2022,1/3
+1161,236900,Novo Naselje,ANDJE RANKOVIC,5,centralno grejanje,prazno,ima lift (1),telefon,120,uknjiženo,renovirano,useljivo,2022,1/3
+1162,262650,Bulevar Evrope,Bulevar Evrope,4,centralno grejanje,prazno,ima lift (2),telefon,115,uknjiženo,uobičajeno stanje,useljivo,2022,7/11
+1163,494400, Banatić,Železnička stanica,4,podno grejanje,namešteno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",150,uknjiženo,novo,useljivo,2020,1/3
+1164,76330,Grbavica,Grbavica,0.5,centralno grejanje,namešteno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",26,uknjiženo,uobičajeno stanje,useljivo,2022,1/5
+1165,175620, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),4,etažno grejanje,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",107,uknjiženo,novo,useljivo,2022,4/4
+1166,166040, Rotkvarija,Socijalno,3,centralno grejanje,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",62,uknjiženo,renovirano,useljivo,2022,4/4
+1167,78800, Banatić,Železnička stanica,2,centralno grejanje,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",45,uknjiženo,renovirano,useljivo,2022,1/4
+1168,77250,Bulevar Oslobođenja,Bulevar Oslobođenja,1.5,centralno grejanje,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",31,uknjiženo,renovirano,useljivo,2022,3/8
+1169,132490,Telep,Telep,3,etažno grejanje,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",68,uknjiženo,u izgradnji,useljivo,2022,prizemlje/2
+1170,103000, Detelinara,Nova Detelinara,2.5,centralno grejanje,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",65,uknjiženo,u izgradnji,useljivo,1990,2/5
+1171,152400,Telep,Telep,3,centralno grejanje,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",87,uknjiženo,uobičajeno stanje,useljivo,2004,2/3
+1172,67000,Grbavica,Grbavica,0.5,centralno grejanje,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",23,uknjiženo,uobičajeno stanje,useljivo,2010,1/6
+1173,132450,Telep,Telep,3,grejanje na gas,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",68,uknjiženo,uobičajeno stanje,useljivo,2010,1/2
+1174,77250,Bulevar Oslobođenja,Augusta Cesarca,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",31,uknjiženo,novo,useljivo,2010,3/8
+1175,64890,Adice,Adice,0.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",30,uknjiženo,novo,useljivo,2010,2/2
+1176,64890,Adice,Rafaila Sisatovačkog,0.5,grejanje na gas,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, frižider, rerna, šporet, ležaj, plakar",30,uknjiženo,novo,useljivo,2010,2/2
+1177,92700,Sajmište,NOVOSADSKOG SAJMA,1,centralno grejanje,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, frižider, rerna, šporet, ležaj, plakar",30,uknjiženo,novo,useljivo,2010,2/2
+1178,190000, Stari Grad,Novi Sad - Centar,4,centralno grejanje,prazno,ima lift (1),telefon,95,nije uknjiženo,novo,useljivo,2010,6/7
+1179,176000,Telep,Telep,5,centralno grejanje,namešteno,ima lift (1),"TV, veš mašina, sudo mašina, frižider, šporet, ležaj",95,nije uknjiženo,novo,useljivo,2010,5.
+1180,197000, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),3.5,podno grejanje,prazno,ima lift (1),"kablovska, klima",87,nije uknjiženo,u izgradnji,useljivo,2020,2/2
+1181,177200, Stari Grad,"CENTAR, NOVI SAD",4.5,centralno grejanje,prazno,ima lift (1),"kablovska, klima",93,uknjiženo,u izgradnji,useljivo,2020,1/10
+1182,36000, Stari Grad,"CENTAR, NOVI SAD",0.5,centralno grejanje,prazno,ima lift (1),"kablovska, klima",16,uknjiženo,u izgradnji,useljivo,2020,4/5
+1183,96400, Rotkvarija,Socijalno,1.5,centralno grejanje,prazno,ima lift (1),"kablovska, klima",36,uknjiženo,uobičajeno stanje,useljivo,2000,2/5
+1184,145000, Liman,Ive Andrića,3,centralno grejanje,polunamešteno,ima lift (1),"telefon, kablovska, klima, ugradni plakar",58,uknjiženo,renovirano,useljivo,2000,1/5
+1185,175620, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),4,grejanje na gas,polunamešteno,ima lift (1),"telefon, kablovska",107,uknjiženo,novo,useljivo,2000,4/4
+1186,75300,Salajka,"SALAJKA, NOVI SAD",2,centralno grejanje,polunamešteno,ima lift (1),"telefon, kablovska",43,uknjiženo,uobičajeno stanje,useljivo,2005,5/5
+1187,113300, Detelinara,Nova Detelinara,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",59,uknjiženo,novo,useljivo,2005,1/5
+1188,132490,Telep,Telep,3,podno grejanje,prazno,ima lift (1),"telefon, kablovska",68,u procesu uknjižavanja,u izgradnji,useljivo,2005,visoko
+1189,103000, Detelinara,Nova Detelinara,2.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",54,uknjiženo,uobičajeno stanje,useljivo,2011,5/5
+1190,109180, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),2.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",52,uknjiženo,uobičajeno stanje,useljivo,2010,3/3
+1191,95600,Podbara,Podbara,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",58,uknjiženo,uobičajeno stanje,useljivo,1999,4/4
+1192,210500,Telep,Telep,4,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",87,uknjiženo,uobičajeno stanje,useljivo,2023,visoko
+1193,78800, Banatić,Železnička stanica,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",45,uknjiženo,uobičajeno stanje,useljivo,2023,1/4
+1194,103000,Podbara,Podbara,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",40,uknjiženo,novo,useljivo,2023,6/6
+1195,60770,Veternik,Veternik,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",33,uknjiženo,uobičajeno stanje,useljivo,2021,2/2
+1196,91000,Telep,Telep,2,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",55,uknjiženo,uobičajeno stanje,useljivo,2010,prizemlje/3
+1197,64990, Detelinara,JANKA CMELIKA,1,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",25,uknjiženo,uobičajeno stanje,useljivo,2010,prizemlje/3
+1198,149350, Detelinara,KORNELIJA STANKOVICA,4,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",99,uknjiženo,uobičajeno stanje,useljivo,2010,prizemlje/3
+1199,191500,Salajka,Salajka,4,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",88,uknjiženo,novo,useljivo,2020,3/4
+1200,165500,Salajka,Salajka,4,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",76,uknjiženo,novo,useljivo,2020,potkrovlje/4
+1201,92700,Bulevar Oslobođenja,Bulevar Oslobođenja,1,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",30,uknjiženo,novo,useljivo,2020,1/7
+1202,111110, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),2,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",43,uknjiženo,novo,useljivo,2020,1/3
+1203,76220,Salajka,Salajka,0.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",30,uknjiženo,novo,useljivo,2020,visoko
+1204,100940, Rotkvarija,Vojvode Šupljikca,3.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",70,uknjiženo,novo,useljivo,2020,3/3
+1205,72000,Bulevar Oslobođenja,Bulevar Oslobođenja,0.5,centralno grejanje,namešteno,ima lift (1),"klima, veš mašina, kuhinjski elementi, frižider, rerna, plakar",29,uknjiženo,renovirano,useljivo,2020,1/5
+1206,85000, Sajmište,Slobodana Bajica 28,1.5,centralno grejanje,namešteno,ima lift (1),"kablovska, klima, veš mašina, kuhinjski elementi, frižider, rerna, šporet, plakar, ugradni plakar",44,u procesu uknjižavanja,renovirano,useljivo,2010,4/4
+1207,149600,Salajka,Koste Šokice,3,centralno grejanje,prazno,ima lift (1),video nadzor,110,uknjiženo,novo,useljivo,2010,1/4
+1208,91440,Salajka,Salajka,1.5,centralno grejanje,prazno,ima lift (1),video nadzor,36,uknjiženo,novo,useljivo,2010,visoko
+1209,92700,Novo Naselje,Novo Naselje,2,centralno grejanje,prazno,ima lift (1),video nadzor,55,uknjiženo,novo,useljivo,1980,3/4
+1210,40990,Adice,"ADICE, NOVI SAD",0.5,centralno grejanje,prazno,ima lift (1),video nadzor,27,uknjiženo,u izgradnji,useljivo,2019,visoko
+1211,77250, Novo Naselje,Šarengrad,1,centralno grejanje,prazno,ima lift (1),video nadzor,40,uknjiženo,u izgradnji,useljivo,2000,2/4
+1212,104000, Detelinara,Nova Detelinara,2.5,centralno grejanje,prazno,ima lift (1),video nadzor,56,uknjiženo,u izgradnji,useljivo,2012,visoko
+1213,56600, Banatić,Železnička stanica,0.5,centralno grejanje,prazno,ima lift (1),video nadzor,22,uknjiženo,u izgradnji,useljivo,1980,1/4
+1214,123600,Avijatičarsko Naselje,Avijatičarsko Naselje,3,centralno grejanje,prazno,ima lift (1),video nadzor,87,uknjiženo,u izgradnji,useljivo,1988,3/4
+1215,109200, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),2.5,grejanje na gas,prazno,ima lift (1),video nadzor,53,uknjiženo,u izgradnji,useljivo,2014,3/3
+1216,108000,Avijatičarsko Naselje,Avijatičarsko Naselje,2,centralno grejanje,prazno,ima lift (1),video nadzor,60,uknjiženo,uobičajeno stanje,useljivo,1985,2/6
+1217,72100,Petrovaradin,Petrovaradin,2.5,centralno grejanje,prazno,ima lift (1),video nadzor,44,uknjiženo,uobičajeno stanje,useljivo,1980,6/6
+1218,220420, Stari Grad,Kralja Aleksandra,3.5,centralno grejanje,prazno,ima lift (1),video nadzor,109,uknjiženo,potrebno renoviranje,useljivo,1980,2/2
+1219,88250,Salajka,Salajka,1.5,grejanje na gas,prazno,ima lift (1),video nadzor,34,uknjiženo,novo,useljivo,1980,visoko
+1220,95070,Avijatičarsko Naselje,Avijatičarsko Naselje,2.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",71,uknjiženo,novo,useljivo,1980,2/5
+1221,91670, Petrovaradin,Preradovićeva,2.5,centralno grejanje,prazno,ima lift (1),klima,61,uknjiženo,renovirano,useljivo,1980,2/4
+1222,163770, Stari Grad,Novi Sad - Centar,2,centralno grejanje,prazno,ima lift (1),klima,53,uknjiženo,uobičajeno stanje,useljivo,1980,1/5
+1223,78300,Salajka,Salajka,0.5,centralno grejanje,prazno,ima lift (1),klima,29,uknjiženo,u izgradnji,useljivo,2021,5/6
+1224,177200, Stari Grad,Novi Sad - Centar,4.5,centralno grejanje,prazno,ima lift (1),klima,93,uknjiženo,uobičajeno stanje,useljivo,1970,1/10
+1225,99500,Podbara,Podbara,2,centralno grejanje,prazno,ima lift (1),klima,46,uknjiženo,uobičajeno stanje,useljivo,1970,2/5
+1226,77900,Salajka,Temerinska,0.5,centralno grejanje,prazno,ima lift (1),"video nadzor, klima",30,nije uknjiženo,novo,useljivo,1970,1/6
+1227,61800,Adice,Adice,0.5,grejanje na gas,namešteno,ima lift (1),"video nadzor, klima",30,uknjiženo,novo,useljivo,1970,2/2
+1228,133990, Banatić,SAVE LJUBOJEVA,3,centralno grejanje,namešteno,ima lift (1),"video nadzor, klima",72,uknjiženo,novo,useljivo,1970,2/2
+1229,128750,Grbavica,KOLO SRPSKIH SESTARA,3,centralno grejanje,namešteno,ima lift (1),"video nadzor, klima",68,uknjiženo,novo,useljivo,1970,2/2
+1230,130810,Jugovićevo,Jugovićevo,2.5,grejanje na gas,namešteno,ima lift (1),"video nadzor, klima",66,uknjiženo,novo,useljivo,1970,3/4
+1231,49500, Detelinara,Nova Detelinara,1,grejanje na gas,prazno,ima lift (1),"video nadzor, klima",32,uknjiženo,novo,useljivo,1970,3/4
+1232,231750,Grbavica,Gogoljeva,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",107,uknjiženo,novo,useljivo,2020,4/5
+1233,115700, Petrovaradin,Nema naziv,4,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",66,nije uknjiženo,u izgradnji,useljivo,2020,2/2
+1234,133800, Liman,Liman 3,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",62,uknjiženo,uobičajeno stanje,useljivo,1975,7/8
+1235,283150,Grbavica,Grbavica,3,centralno grejanje,namešteno,ima lift (1),"Poslovni nameštaj, telefon, kablovska, TV, klima, veš mašina, kuhinjski elementi, frižider, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",119,uknjiženo,novo,useljivo,1975,5/7
+1236,128750,Grbavica,Grbavica,2.5,centralno grejanje,prazno,ima lift (1),"Poslovni nameštaj, telefon, kablovska, TV, klima, veš mašina, kuhinjski elementi, frižider, mikrotalasna rerna, rerna, šporet, ležaj, plakar, ugradni plakar",56,uknjiženo,novo,useljivo,1975,1/4
+1237,175100, Telep,Telep,4,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",85,u procesu uknjižavanja,u izgradnji,useljivo,1975,1/4
+1238,71740, Telep,Telep,1.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",36,u procesu uknjižavanja,u izgradnji,useljivo,1975,visoko
+1239,85850, Telep,Telep,2,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",43,u procesu uknjižavanja,u izgradnji,useljivo,1975,1/4
+1240,113300, Detelinara,Nova Detelinara,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",59,uknjiženo,u izgradnji,useljivo,1975,1/5
+1241,137530, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),3,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",67,u procesu uknjižavanja,u izgradnji,useljivo,1975,3/3
+1242,154500,Sajmište,Kopernikova,3.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",75,uknjiženo,uobičajeno stanje,useljivo,1975,1/3
+1243,276870, Stari Grad,Centar,5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",112,uknjiženo,novo,useljivo,1975,3/4
+1244,59740,Petrovaradin,Petrovaradin,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",32,uknjiženo,u izgradnji,useljivo,1975,1/3
+1245,153570, Rotkvarija,Socijalno,3,centralno grejanje,prazno,ima lift (1),"telefon, interfon",62,nije uknjiženo,novo,useljivo,1975,3/4
+1246,110760,Adice,Adice,3,grejanje na gas,prazno,ima lift (1),"telefon, interfon",68,nije uknjiženo,novo,useljivo,1975,1/2
+1247,157590, Stari Grad,Vase Pelagića,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",68,uknjiženo,novo,useljivo,2020,2/7
+1248,130810,Jugovićevo,Jugovićevo,2.5,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",66,uknjiženo,novo,useljivo,2020,3/4
+1249,251320, Stari Grad,Novi Sad - Centar,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",56,uknjiženo,renovirano,useljivo,2020,1/4
+1250,875500, Stari Grad,Dunavski Park,5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",224,uknjiženo,novo,useljivo,2020,3/3
+1251,112990,Salajka,Salajka,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",44,nije uknjiženo,novo,useljivo,2020,visoko
+1252,161200,Rotkvarija,Bulevar Kralja Petra I,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",62,nije uknjiženo,novo,useljivo,2020,3.
+1253,152650, Petrovaradin,Alibegovac,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",76,nije uknjiženo,novo,useljivo,2022,visoko
+1254,205000, Petrovaradin,Alibegovac,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",87,nije uknjiženo,novo,useljivo,2022,2/2
+1255,66950, Detelinara,"NOVA DETELINARA, NOVI SAD",0.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",25,nije uknjiženo,uobičajeno stanje,useljivo,2010,visoko
+1256,88580, Detelinara,"NOVA DETELINARA, NOVI SAD",2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",50,nije uknjiženo,uobičajeno stanje,useljivo,2005,visoko
+1257,113300, Detelinara,Nova Detelinara,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",67,uknjiženo,uobičajeno stanje,useljivo,2005,5/5
+1258,84460,Detelinara,Veselina Masleše,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",42,uknjiženo,uobičajeno stanje,useljivo,2005,5/5
+1259,164800,Novo Naselje,Novo Naselje,3,centralno grejanje,prazno,ima lift (2),"telefon, kablovska",76,uknjiženo,uobičajeno stanje,useljivo,2005,2/10
+1260,127900, Rotkvarija,LUKIJANA MUSICKOG,2,centralno grejanje,prazno,ima lift (2),"telefon, kablovska",54,uknjiženo,uobičajeno stanje,useljivo,2005,2/10
+1261,61000,Adice,Adice,1.5,centralno grejanje,namešteno,ima lift (2),"kuhinjski elementi, frižider, rerna, šporet, ležaj, plakar",32,uknjiženo,uobičajeno stanje,useljivo,2005,2/2
+1262,169950, Adamovićevo Naselje,Cara Dušana,2.5,centralno grejanje,namešteno,ima lift (2),"kuhinjski elementi, frižider, rerna, šporet, ležaj, plakar",48,uknjiženo,renovirano,useljivo,2005,4/5
+1263,254400,Grbavica,Grbavica,4,centralno grejanje,namešteno,ima lift (1),"kuhinjski elementi, frižider, rerna, šporet, ležaj, plakar",130,uknjiženo,uobičajeno stanje,useljivo,2005,3/3
+1264,147320,Adice,Adice,4,grejanje na gas,prazno,ima lift (1),"kuhinjski elementi, frižider, rerna, šporet, ležaj, plakar",89,uknjiženo,novo,useljivo,2005,2/2
+1265,92700,Bulevar Oslobođenja,Bulevar Oslobođenja,1,centralno grejanje,namešteno,ima lift (1),"kuhinjski elementi, frižider, rerna, šporet, ležaj, plakar",30,uknjiženo,novo,useljivo,2005,1/7
+1266,58710,Bulevar Oslobođenja,Bulevar Oslobođenja,1,centralno grejanje,prazno,ima lift (1),"kuhinjski elementi, frižider, rerna, šporet, ležaj, plakar",32,uknjiženo,novo,useljivo,2005,5/5
+1267,113300,Avijatičarsko Naselje,Janka Čmelika,2,centralno grejanje,prazno,ima lift (1),"kuhinjski elementi, frižider, rerna, šporet, ležaj, plakar",60,uknjiženo,uobičajeno stanje,useljivo,2005,5/5
+1268,164800, Stari Grad,Kej,2.5,centralno grejanje,prazno,ima lift (1),"kuhinjski elementi, frižider, rerna, šporet, ležaj, plakar",60,uknjiženo,renovirano,useljivo,2005,1/5
+1269,46350,Telep,Telep,0.5,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska, TV, veš mašina, kuhinjski elementi, frižider, rerna, šporet, ležaj, plakar, ugradni plakar",23,uknjiženo,renovirano,useljivo,2005,prizemlje/3
+1270,154500, Stari Grad,Riblja Pijaca,3.5,centralno grejanje,prazno,ima lift (1),kablovska,94,u procesu uknjižavanja,potrebno renoviranje,useljivo,2005,3/3
+1271,113300, Detelinara,Nova Detelinara,3,centralno grejanje,prazno,ima lift (1),kablovska,59,uknjiženo,potrebno renoviranje,useljivo,2005,3/3
+1272,374000,Bulevar Evrope,Bulevar Evrope,5,grejanje na gas,prazno,ima lift (1),kablovska,158,uknjiženo,potrebno renoviranje,useljivo,2021,2/2
+1273,166860, Detelinara,Branka Bajica,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",60,uknjiženo,potrebno renoviranje,useljivo,2020,2/5
+1274,140350, Detelinara,Kornelija Stankovica,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",99,uknjiženo,potrebno renoviranje,useljivo,2010,5/5
+1275,170000, Liman,Balzakova,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",72,uknjiženo,renovirano,useljivo,2010,1/9
+1276,247500, Stari Grad,Novi Sad - Centar,8,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",127,uknjiženo,uobičajeno stanje,useljivo,2010,1/3
+1277,87550,Grbavica,Grbavica,1,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",39,uknjiženo,novo,useljivo,2010,visoko
+1278,113300, Detelinara,Nova Detelinara,2,centralno grejanje,prazno,ima lift (1),"kablovska, internet",59,uknjiženo,novo,useljivo,2005,1/5
+1279,110630, Stari Grad,Novi Sad - Centar,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, video nadzor, interfon",39,uknjiženo,novo,useljivo,2022,5/5
+1280,56000,Telep,Pavla Bakića 8,0.5,podno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, video nadzor, interfon",28,uknjiženo,novo,useljivo,2022,prizemlje/2
+1281,175000, Telep,Bulevar Patrijarha Pavla 111,4,centralno grejanje,prazno,ima lift (1),"video nadzor, klima, ventilacija",106,u procesu uknjižavanja,novo,useljivo,2020,4/4
+1282,200000,Bulevar Evrope,Bulevar Evrope,4,etažno grejanje,prazno,ima lift (1),"video nadzor, klima, ventilacija",97,u procesu uknjižavanja,novo,useljivo,2020,visoko
+1283,90640,Detelinara,Detelinara,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",53,uknjiženo,novo,useljivo,2020,6.
+1284,113300, Detelinara,"NOVA DETELINARA, NOVI SAD",2.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",59,uknjiženo,novo,useljivo,2020,1/5
+1285,133900,Telep,Bulevar Evrope,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska, internet, interfon, klima",62,uknjiženo,novo,useljivo,2020,8/13
+1286,247200,Sajmište,Sajmište,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska, internet, interfon, klima",91,uknjiženo,uobičajeno stanje,useljivo,2016,2/5
+1287,113300, Detelinara,Nova Detelinara,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",59,uknjiženo,uobičajeno stanje,useljivo,2016,1/5
+1288,138700,Telep,Telep,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",69,uknjiženo,uobičajeno stanje,useljivo,2016,1/2
+1289,85000,Grbavica,Mise Dimitrijevica,1.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",53,uknjiženo,potrebno renoviranje,useljivo,2020,1/2
+1290,1,Petrovaradin,Petrovaradin,2,podno grejanje,prazno,ima lift (1),"telefon, kablovska",1,uknjiženo,u izgradnji,useljivo,2020,2/4
+1291,92700,Bulevar Oslobođenja,Bulevar Oslobođenja,1.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",30,uknjiženo,uobičajeno stanje,useljivo,2020,1/7
+1292,192610, Detelinara,Nova Detelinara,3.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",85,uknjiženo,uobičajeno stanje,useljivo,2009,5/5
+1293,113300,Novo Naselje,Novo Naselje,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",73,uknjiženo,uobičajeno stanje,useljivo,1985,2/4
+1294,113300, Detelinara,Nova Detelinara,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",59,uknjiženo,uobičajeno stanje,useljivo,1985,1/5
+1295,87550,Grbavica,Grbavica,1.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",39,uknjiženo,uobičajeno stanje,useljivo,1985,visoko
+1296,220420, Stari Grad,Novi Sad - Centar,3,grejanje na struju,namešteno,ima lift (1),"telefon, kablovska",109,uknjiženo,uobičajeno stanje,useljivo,1985,2/2
+1297,154500, Detelinara,KOPERNIKOVA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",74,uknjiženo,uobičajeno stanje,useljivo,1985,2/2
+1298,99400, Stari Grad,Novi Sad - Centar,1,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, video nadzor, interfon",35,uknjiženo,novo,useljivo,2022,1/5
+1299,159114,Petrovaradin,Petrovaradin,3,podno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, video nadzor, interfon",69,uknjiženo,u izgradnji,useljivo,2022,2.
+1300,113325,Petrovaradin,Petrovaradin,2,podno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, video nadzor, interfon",45,uknjiženo,u izgradnji,useljivo,2022,1.
+1301,187358,Petrovaradin,Petrovaradin,4,podno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, video nadzor, interfon",81,uknjiženo,u izgradnji,useljivo,2022,3/4
+1302,188184,Petrovaradin,Petrovaradin,4,podno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, video nadzor, interfon",78,uknjiženo,u izgradnji,useljivo,2022,3/4
+1303,111100,Avijatičarsko Naselje,Rumenacki put,2.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",67,uknjiženo,renovirano,useljivo,1980,6/8
+1304,136790, Veternik,Veternička Rampa,4,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",83,uknjiženo,uobičajeno stanje,useljivo,2022,1/2
+1305,73550, Veternik,Veternička Rampa,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",42,uknjiženo,uobičajeno stanje,useljivo,2022,2/2
+1306,137870, Sremska Kamenica,Popovica,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",45,uknjiženo,uobičajeno stanje,useljivo,2022,1/2
+1307,136790, Veternik,Veternička Rampa,3.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",83,uknjiženo,uobičajeno stanje,useljivo,2022,1/2
+1308,73550, Veternik,Veternička Rampa,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",42,uknjiženo,uobičajeno stanje,useljivo,2022,2/2
+1309,80540, Veternik,Veternička Rampa,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",46,uknjiženo,uobičajeno stanje,useljivo,2022,2/2
+1310,182300, Stari Grad,"KEJ, NOVI SAD",4.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",93,uknjiženo,uobičajeno stanje,useljivo,1970,1/10
+1311,46350,Telep,"TELEP, NOVI SAD",0.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",23,uknjiženo,uobičajeno stanje,useljivo,2006,visoko
+1312,108150, Detelinara,Nova Detelinara,2,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",43,uknjiženo,uobičajeno stanje,useljivo,2006,4/5
+1313,90650, Stari Grad,Novi Sad - Centar,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",58,uknjiženo,uobičajeno stanje,useljivo,2005,2.
+1314,123600, Liman,Balzakova,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",65,uknjiženo,uobičajeno stanje,useljivo,2005,2.
+1315,87550,Grbavica,Grbavica,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",39,uknjiženo,uobičajeno stanje,useljivo,2005,prizemlje/4
+1316,109180, Liman,Bulevar Oslobođenja,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",53,uknjiženo,uobičajeno stanje,useljivo,2005,prizemlje/4
+1317,87550,Grbavica,Grbavica,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",39,uknjiženo,uobičajeno stanje,useljivo,2005,prizemlje/4
+1318,95275,Rotkvarija,Braće Jovandić,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",49,uknjiženo,uobičajeno stanje,useljivo,2005,prizemlje/4
+1319,113300, Detelinara,Nova Detelinara,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",59,uknjiženo,uobičajeno stanje,useljivo,2005,1/5
+1320,108150,Klisa,629,4,etažno grejanje,prazno,ima lift (1),"telefon, kablovska",72,uknjiženo,uobičajeno stanje,useljivo,2005,1/5
+1321,69000,Bulevar Evrope,Bulevar Evrope,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",28,uknjiženo,uobičajeno stanje,useljivo,2005,3/5
+1322,113300, Detelinara,Nova Detelinara,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",59,uknjiženo,uobičajeno stanje,useljivo,2005,1/5
+1323,111250, Stari Grad,Novi Sad - Centar,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon",48,uknjiženo,novo,useljivo,2005,4/5
+1324,113300,Stari Grad,Stari Grad,2,centralno grejanje,prazno,ima lift (1),"kablovska, internet, klima",55,uknjiženo,novo,useljivo,2005,3/3
+1325,303850, Rotkvarija,Socijalno,4,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, video nadzor, interfon, klima, Kanalizacija",200,uknjiženo,novo,useljivo,2005,4/5
+1326,45000, Stari Grad,Novi Sad - Centar,1,TA peć,prazno,ima lift (1),"telefon, kablovska, internet, video nadzor, interfon, klima, Kanalizacija",26,uknjiženo,renovirano,useljivo,2005,4/5
+1327,103000,Novo Naselje,Novo Naselje,2,centralno grejanje,prazno,ima lift (1),"kablovska, internet, interfon, klima",55,uknjiženo,uobičajeno stanje,useljivo,1980,1/4
+1328,49500,Adice,pavla bakica,0.5,grejanje na struju,namešteno,ima lift (1),"kablovska, internet, interfon, klima",28,uknjiženo,uobičajeno stanje,useljivo,1980,visoko
+1329,111340,Sajlovo,Sajlovo,3,grejanje na struju,prazno,ima lift (1),"kablovska, internet, interfon, klima",94,uknjiženo,novo,useljivo,2021,visoko
+1330,73130, Detelinara,Nova Detelinara,1,centralno grejanje,namešteno,ima lift (1),"kablovska, internet, interfon, klima",29,uknjiženo,novo,useljivo,2021,visoko
+1331,190350, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),4,etažno grejanje,prazno,ima lift (1),"telefon, kablovska, video nadzor",96,uknjiženo,novo,useljivo,2020,1/5
+1332,231700,Grbavica,gogoljeva,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska, klima",107,uknjiženo,luksuzno,useljivo,2010,4/5
+1333,108610, Stari Grad,"CENTAR, NOVI SAD",2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska, klima",57,uknjiženo,luksuzno,useljivo,2010,1/4
+1334,149350, Stari Grad,"CENTAR, NOVI SAD",3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska, klima",87,uknjiženo,luksuzno,useljivo,2010,5/6
+1335,46350,Telep,Telep,0.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska, klima",23,uknjiženo,uobičajeno stanje,useljivo,2000,prizemlje/3
+1336,100800,Podbara,Podbara,0.5,centralno grejanje,prazno,ima lift (1),klima,27,uknjiženo,uobičajeno stanje,useljivo,2000,1/2
+1337,154500, Detelinara,Dr Svetislava Kasapinovića,2.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",62,uknjiženo,novo,useljivo,2000,4/6
+1338,169950, Liman,Liman 1,3,centralno grejanje,prazno,ima lift (1),klima,81,uknjiženo,novo,useljivo,2000,4/5
+1339,99000,Bulevar Oslobođenja,Bulevar Oslobođenja,2,centralno grejanje,prazno,ima lift (1),klima,45,uknjiženo,novo,useljivo,2000,1/5
+1340,122000, Liman,607,2.5,etažno grejanje,prazno,ima lift (1),klima,52,uknjiženo,novo,useljivo,2000,1/5
+1341,63860,Klisa,DECANSKA,2,grejanje na struju,prazno,ima lift (1),klima,48,uknjiženo,novo,useljivo,2000,1/5
+1342,126180, Detelinara,Nova Detelinara,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, video nadzor, klima",55,uknjiženo,novo,useljivo,2000,2/3
+1343,72100,Bulevar Oslobođenja,Bulevar Oslobođenja,1,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",32,uknjiženo,renovirano,useljivo,2000,prizemlje/3
+1344,108150, Detelinara,Nova Detelinara,2,grejanje na gas,namešteno,ima lift (1),"TV, klima, kuhinjski elementi, ležaj",43,uknjiženo,novo,useljivo,2000,4/5
+1345,71770, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),0.5,grejanje na gas,prazno,ima lift (1),klima,28,uknjiženo,u izgradnji,useljivo,2000,1/3
+1346,58710,Bulevar Oslobođenja,Bulevar Oslobođenja,1,centralno grejanje,prazno,ima lift (1),klima,32,uknjiženo,uobičajeno stanje,useljivo,2000,5/5
+1347,46350,Telep,Telep,0.5,etažno grejanje,polunamešteno,ima lift (1),klima,23,uknjiženo,novo,useljivo,2000,prizemlje/3
+1348,340000, Stari Grad,Novi Sad - Centar,3,centralno grejanje,polunamešteno,ima lift (1),"internet, interfon, klima",136,uknjiženo,novo,useljivo,2000,4/5
+1349,77250,Novo Naselje,Novo Naselje,1.5,centralno grejanje,polunamešteno,ima lift (1),"internet, interfon, klima",55,uknjiženo,uobičajeno stanje,useljivo,2000,4/4
+1350,129900, Liman,Balzakova,2,centralno grejanje,namešteno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, šporet, ležaj, ugradni plakar",62,uknjiženo,renovirano,useljivo,2000,7/8
+1351,80700,Bulevar Evrope,BUL.EVROPE,1,centralno grejanje,namešteno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, šporet, ležaj, ugradni plakar",26,uknjiženo,renovirano,useljivo,2000,7/8
+1352,104000, Detelinara,ILIJE BIRCANINA,4,centralno grejanje,namešteno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, šporet, ležaj, ugradni plakar",56,uknjiženo,renovirano,useljivo,2000,7/8
+1353,88000,Klisa,FOCANSKA,3,grejanje na gas,namešteno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, šporet, ležaj, ugradni plakar",105,uknjiženo,renovirano,useljivo,2000,7/8
+1354,64800, Sajmište,Jodna Banja,1,centralno grejanje,prazno,ima lift (1),"TV, klima, veš mašina, kuhinjski elementi, sudo mašina, frižider, zamrzivač, šporet, ležaj, ugradni plakar",36,uknjiženo,renovirano,useljivo,2000,prizemlje
+1355,193640, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),3.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",79,uknjiženo,novo,useljivo,2000,prizemlje/2
+1356,74160, Novo Naselje,Satelit,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",48,uknjiženo,uobičajeno stanje,useljivo,2000,prizemlje/3
+1357,295925,Sremska Kamenica,Sremska Kamenica,5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",149,uknjiženo,u izgradnji,useljivo,2022,1/2
+1358,169950,Bulevar Oslobođenja,Bulevar Oslobođenja,3.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",86,uknjiženo,u izgradnji,useljivo,2022,5.
+1359,144200, Liman,Liman 3,2,centralno grejanje,namešteno,ima lift (2),"telefon, kablovska",58,uknjiženo,u izgradnji,useljivo,2022,2/5
+1360,92600,Adice,Adice,3.5,centralno grejanje,namešteno,ima lift (2),"telefon, kablovska",74,uknjiženo,u izgradnji,useljivo,2022,1/2
+1361,109000, Detelinara,Nova Detelinara,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",59,uknjiženo,uobičajeno stanje,useljivo,2005,1/6
+1362,187870, Detelinara,Janka Čmelika,5,centralno grejanje,prazno,ima lift (1),"kablovska, internet, interfon, klima",114,uknjiženo,novo,useljivo,2005,5/5
+1363,87550,Sajmište,Slobodana Bajića,1.5,centralno grejanje,prazno,ima lift (1),"kablovska, internet, interfon, klima",44,nije uknjiženo,novo,useljivo,2005,4.
+1364,46350,Telep,Mornarska,0.5,grejanje na gas,prazno,ima lift (1),"kablovska, internet, interfon, klima",24,nije uknjiženo,novo,useljivo,2005,prizemlje
+1365,152500, Stari Grad,Njegoseva,3,centralno grejanje,namešteno,ima lift (1),"kablovska, internet, interfon, klima",123,uknjiženo,uobičajeno stanje,useljivo,2005,3/3
+1366,40170,Avijatičarsko Naselje,Avijatičarsko Naselje,0.5,centralno grejanje,prazno,ima lift (1),"kablovska, internet, interfon, klima",21,uknjiženo,uobičajeno stanje,useljivo,2005,7/7
+1367,69500,Salajka,Salajka,1,centralno grejanje,namešteno,ima lift (1),"TV, klima, veš mašina, frižider, šporet, ležaj",35,uknjiženo,novo,useljivo,2005,2.
+1368,84150,Grbavica,Grbavica,1.5,centralno grejanje,namešteno,ima lift (1),klima,43,uknjiženo,uobičajeno stanje,useljivo,2005,2.
+1369,92700, Telep,Somborska,1.5,grejanje na gas,namešteno,ima lift (1),klima,40,uknjiženo,novo,useljivo,2005,2.
+1370,82400,Podbara,bele njive,1.5,centralno grejanje,polunamešteno,ima lift (1),"klima, veš mašina, kuhinjski elementi, frižider, rerna, plakar",39,uknjiženo,uobičajeno stanje,useljivo,2005,3/3
+1371,113300, Detelinara,Nova Detelinara,2.5,centralno grejanje,polunamešteno,ima lift (1),"klima, veš mašina, kuhinjski elementi, frižider, rerna, plakar",59,uknjiženo,u izgradnji,useljivo,2022,1.
+1372,66950, Detelinara,Nova Detelinara,0.5,centralno grejanje,polunamešteno,ima lift (1),"klima, veš mašina, kuhinjski elementi, frižider, rerna, plakar",25,uknjiženo,uobičajeno stanje,useljivo,2010,visoko
+1373,76220,Novo Naselje,Novo Naselje,1.5,centralno grejanje,polunamešteno,ima lift (1),"klima, veš mašina, kuhinjski elementi, frižider, rerna, plakar",43,uknjiženo,uobičajeno stanje,useljivo,2022,3.
+1374,65700,Adice,Adice,0.5,centralno grejanje,polunamešteno,ima lift (1),"klima, veš mašina, kuhinjski elementi, frižider, rerna, plakar",30,uknjiženo,u izgradnji,useljivo,2022,2/2
+1375,58500, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),1,centralno grejanje,polunamešteno,ima lift (1),"klima, veš mašina, kuhinjski elementi, frižider, rerna, plakar",49,uknjiženo,uobičajeno stanje,useljivo,2022,visoko
+1376,99990,Novo Naselje,Novo Naselje,3,centralno grejanje,prazno,ima lift (1),"kablovska, internet, interfon, Kanalizacija",86,uknjiženo,novo,useljivo,2022,5/5
+1377,87550, Sajmište,"BETANIJA, NOVI SAD",1.5,centralno grejanje,prazno,ima lift (1),"kablovska, internet, interfon, Kanalizacija",44,uknjiženo,uobičajeno stanje,useljivo,2014,4/4
+1378,186280, Stari Grad,Riblja Pijaca,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",72,uknjiženo,uobičajeno stanje,useljivo,2014,2/4
+1379,85490, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",38,uknjiženo,uobičajeno stanje,useljivo,2014,visoko
+1380,66950, Detelinara,Nova Detelinara,0.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",25,uknjiženo,u izgradnji,useljivo,2014,visoko
+1381,175100, Rotkvarija,Socijalno,4,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",94,uknjiženo,u izgradnji,useljivo,2014,7/10
+1382,875500, Stari Grad,Dunavska,5,centralno grejanje,prazno,ima lift (1),"telefon, interfon, klima",224,uknjiženo,novo,useljivo,2022,3/3
+1383,143300,Salajka,Kisačka,3.5,centralno grejanje,prazno,ima lift (1),"kablovska, internet, interfon, klima",87,uknjiženo,novo,useljivo,2015,4/5
+1384,83120, Banatić,KISACKA,2.5,centralno grejanje,prazno,ima lift (1),"kablovska, internet, interfon, klima",43,uknjiženo,novo,useljivo,2015,4/5
+1385,97850,Novo Naselje,BUL.SLOBODANA JOVANOVICA,3,centralno grejanje,prazno,ima lift (1),"kablovska, internet, interfon, klima",74,uknjiženo,novo,useljivo,2015,4/5
+1386,97800, Detelinara,Nova Detelinara,2,centralno grejanje,prazno,ima lift (1),klima,50,uknjiženo,novo,useljivo,2015,4/5
+1387,102900,Bulevar Oslobođenja,Bulevar Oslobođenja,1,centralno grejanje,namešteno,ima lift (1),klima,27,uknjiženo,novo,useljivo,2015,5.
+1388,144200,Salajka,Salajka,3,grejanje na gas,prazno,ima lift (1),interfon,83,uknjiženo,u izgradnji,useljivo,2022,1.
+1389,206000,Salajka,Salajka,3,grejanje na gas,prazno,ima lift (1),interfon,76,uknjiženo,u izgradnji,useljivo,2022,4/4
+1390,175680, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),4,centralno grejanje,prazno,ima lift (1),"kablovska, interfon, klima, Kanalizacija",106,u procesu uknjižavanja,novo,useljivo,2022,4/4
+1391,111500, Stari Grad,Trg Republike,2,centralno grejanje,prazno,ima lift (1),"kablovska, interfon, klima, Kanalizacija",57,uknjiženo,novo,useljivo,2022,1/5
+1392,494400, Banatić,zeleznicka stanica,5,grejanje na gas,namešteno,ima lift (1),klima,150,uknjiženo,novo,useljivo,2022,1/2
+1393,144200, Stari Grad,Novi Sad - Centar,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",59,uknjiženo,novo,useljivo,2022,1/3
+1394,69000,Bulevar Evrope,"BULEVAR EVROPE, NOVI SAD",0.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",28,uknjiženo,uobičajeno stanje,useljivo,2015,3/7
+1395,164800,Novo Naselje,"NOVO NASELJE, NOVI SAD",3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",76,uknjiženo,uobičajeno stanje,useljivo,1980,2/12
+1396,171590, Stari Grad,spens,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",72,u procesu uknjižavanja,u izgradnji,useljivo,1980,5/5
+1397,252350, Stari Grad,Pozorišni Trg,3.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, klima",85,uknjiženo,novo,useljivo,1980,2/3
+1398,127120, Adamovićevo Naselje,Cara Dušana,4,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, klima",66,uknjiženo,u izgradnji,useljivo,2021,3/3
+1399,60255,Telep,Telep,0.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska, klima",31,uknjiženo,uobičajeno stanje,useljivo,2011,2/3
+1400,129780, Novo Naselje,Bistrica,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",70,uknjiženo,uobičajeno stanje,useljivo,2011,1/5
+1401,267800, Novo Naselje,novo naselje,4,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",130,u procesu uknjižavanja,novo,useljivo,2011,1/3
+1402,166000, Stari Grad,Novi Sad - Centar,3,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",62,uknjiženo,u izgradnji,useljivo,2012,3/6
+1403,92700, Banatić,Železnička stanica,1.5,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",37,uknjiženo,uobičajeno stanje,useljivo,2018,visoko
+1404,117830,Salajka,salajka,3.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",65,u procesu uknjižavanja,uobičajeno stanje,useljivo,2018,1/3
+1405,105000, Stari Grad,Ilije Ognjanovića 26,3,centralno grejanje,prazno,ima lift (1),"kablovska, internet, klima",73,uknjiženo,renovirano,useljivo,2018,4/4
+1406,110000,Bulevar Evrope,Vardarska,3,grejanje na gas,polunamešteno,ima lift (1),"kablovska, internet, klima",71,uknjiženo,uobičajeno stanje,useljivo,2013,3/4
+1407,31600,Veternik,Veternik,0.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",26,nije uknjiženo,u izgradnji,useljivo,2013,prizemlje/2
+1408,54800,Petrovaradin,Mostarska,0.5,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",28,uknjiženo,uobičajeno stanje,useljivo,2013,prizemlje/2
+1409,77500,Sajmište,Sajmište,1,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",43,uknjiženo,uobičajeno stanje,useljivo,1975,3/3
+1410,96330, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",37,u procesu uknjižavanja,novo,useljivo,2020,3/5
+1411,177200, Stari Grad,Novi Sad - Centar,4.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",93,uknjiženo,uobičajeno stanje,useljivo,1967,1/10
+1412,92700, Majur,Stari Majur,2,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",48,uknjiženo,novo,useljivo,1967,1/4
+1413,92700,Rotkvarija,Kraljevića Marka,1.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",37,uknjiženo,uobičajeno stanje,useljivo,1967,1/4
+1414,173040, Podbara,Kosovska,2.5,centralno grejanje,namešteno,ima lift (1),video nadzor,56,uknjiženo,novo,useljivo,1967,2/5
+1415,160000,Grbavica,Grbavica,3,centralno grejanje,namešteno,ima lift (1),"Poslovni nameštaj, kablovska, video nadzor, TV, klima, veš mašina, kuhinjski elementi, frižider, zamrzivač, rerna, šporet, ležaj, plakar",78,uknjiženo,novo,useljivo,2010,5/5
+1416,118000, Detelinara,Nova Detelinara,2,centralno grejanje,namešteno,ima lift (1),"Poslovni nameštaj, kablovska, video nadzor, TV, klima, veš mašina, kuhinjski elementi, frižider, zamrzivač, rerna, šporet, ležaj, plakar",50,uknjiženo,novo,useljivo,2010,5/5
+1417,53560, Rotkvarija,Socijalno,1,centralno grejanje,prazno,ima lift (1),"Poslovni nameštaj, kablovska, video nadzor, TV, klima, veš mašina, kuhinjski elementi, frižider, zamrzivač, rerna, šporet, ležaj, plakar",29,uknjiženo,uobičajeno stanje,useljivo,2010,prizemlje/1
+1418,69900, Detelinara,Nova Detelinara,1,centralno grejanje,prazno,ima lift (1),"Poslovni nameštaj, kablovska, video nadzor, TV, klima, veš mašina, kuhinjski elementi, frižider, zamrzivač, rerna, šporet, ležaj, plakar",28,uknjiženo,uobičajeno stanje,useljivo,2010,2/5
+1419,108210,Adice,jovana ristica,3.5,centralno grejanje,prazno,ima lift (1),"Poslovni nameštaj, kablovska, video nadzor, TV, klima, veš mašina, kuhinjski elementi, frižider, zamrzivač, rerna, šporet, ležaj, plakar",60,uknjiženo,uobičajeno stanje,useljivo,2018,2/5
+1420,133900, Stari Grad,Spens,2.5,centralno grejanje,prazno,ima lift (1),"Poslovni nameštaj, kablovska, video nadzor, TV, klima, veš mašina, kuhinjski elementi, frižider, zamrzivač, rerna, šporet, ležaj, plakar",60,uknjiženo,renovirano,useljivo,2018,2/4
+1421,202200,Bulevar Oslobođenja,DEVET JUGOVICA,4,centralno grejanje,prazno,ima lift (1),"Poslovni nameštaj, kablovska, video nadzor, TV, klima, veš mašina, kuhinjski elementi, frižider, zamrzivač, rerna, šporet, ležaj, plakar",95,uknjiženo,renovirano,useljivo,2018,2/4
+1422,73130, Detelinara,Nova Detelinara,1,centralno grejanje,namešteno,ima lift (1),"Poslovni nameštaj, kablovska, video nadzor, TV, klima, veš mašina, kuhinjski elementi, frižider, zamrzivač, rerna, šporet, ležaj, plakar",29,uknjiženo,renovirano,useljivo,2018,2/4
+1423,66950, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),0.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, klima",24,uknjiženo,novo,useljivo,2018,3/4
+1424,206000, Stari Grad,Kralja Aleksandra,3,grejanje na struju,prazno,ima lift (1),"telefon, kablovska, klima",107,uknjiženo,uobičajeno stanje,useljivo,2018,2/2
+1425,108500, Stari Grad,Novi Sad - Centar,2.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, klima, kuhinjski elementi",64,uknjiženo,uobičajeno stanje,useljivo,2000,3/3
+1426,159700,Grbavica,VOJVOĐANSKA,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",82,uknjiženo,renovirano,useljivo,1970,1/4
+1427,122000,Petrovaradin,Zlatarićeva,3.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",84,uknjiženo,novo,useljivo,2020,potkrovlje/4
+1428,152350,Telep,Telep,3,grejanje na gas,prazno,ima lift (1),telefon,87,uknjiženo,novo,useljivo,2020,2/3
+1429,220630,Grbavica,"GRBAVICA, NOVI SAD",5,centralno grejanje,prazno,ima lift (1),telefon,157,uknjiženo,novo,useljivo,2020,5/6
+1430,237000, Rotkvarija,Socijalno,4,centralno grejanje,prazno,ima lift (1),telefon,99,uknjiženo,novo,useljivo,2020,5/5
+1431,64000,Novo Naselje,Novo Naselje,0.5,centralno grejanje,namešteno,ima lift (1),telefon,29,uknjiženo,renovirano,useljivo,2020,5/5
+1432,70000, Detelinara,Nova Detelinara,0.5,centralno grejanje,namešteno,ima lift (1),telefon,27,uknjiženo,renovirano,useljivo,2010,3/5
+1433,69470,Adice,adice,2,grejanje na gas,prazno,ima lift (1),telefon,47,uknjiženo,u izgradnji,useljivo,2010,visoko
+1434,267800,Sajmište,Sajmište,5,centralno grejanje,namešteno,ima lift (1),telefon,142,uknjiženo,u izgradnji,useljivo,2010,visoko
+1435,116080,Veternik,veternik,4,grejanje na gas,prazno,ima lift (1),telefon,98,uknjiženo,u izgradnji,useljivo,2010,2/3
+1436,62800, Detelinara,Nova Detelinara,0.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",25,uknjiženo,novo,useljivo,2010,visoko
+1437,57150, Detelinara,Nova Detelinara,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",27,uknjiženo,novo,useljivo,2010,4/5
+1438,54900,Telep,Telep,2,grejanje na gas,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",40,uknjiženo,novo,useljivo,2010,prizemlje/2
+1439,142760, Detelinara,Nova Detelinara,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",63,uknjiženo,u izgradnji,useljivo,2023,4/6
+1440,87550, Stari Grad,Kej,1,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",39,uknjiženo,u izgradnji,useljivo,2023,2/4
+1441,100000,Telep,Djordja Mikesa,4,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska, internet, interfon, klima",91,uknjiženo,uobičajeno stanje,useljivo,2023,1/2
+1442,87550,Grbavica,Grbavica,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",47,uknjiženo,uobičajeno stanje,useljivo,2023,prizemlje/4
+1443,83950,Telep,Telep,1.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",39,uknjiženo,uobičajeno stanje,useljivo,2023,visoko
+1444,126780,Telep,Telep,2.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",63,uknjiženo,uobičajeno stanje,useljivo,2023,3/3
+1445,154000,Novo Naselje,Novo Naselje,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",74,uknjiženo,uobičajeno stanje,useljivo,1981,4/5
+1446,82400,Bulevar Evrope,Bulevar Evrope,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",40,uknjiženo,novo,useljivo,1981,1/5
+1447,191580, Liman,Liman 4,3.5,centralno grejanje,polunamešteno,ima lift (1),"telefon, kablovska",93,uknjiženo,novo,useljivo,1980,5/7
+1448,73130, Detelinara,Nova Detelinara,1,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",29,uknjiženo,novo,useljivo,1980,visoko
+1449,120500,Bulevar Oslobođenja,BUL.OSLOBODJENJA,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",49,uknjiženo,novo,useljivo,1980,visoko
+1450,53350,Adice,PROTE MIROSAVLJEVICA,1.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",37,uknjiženo,novo,useljivo,1980,visoko
+1451,100900, Liman,Liman 4,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",55,uknjiženo,uobičajeno stanje,useljivo,1980,6.
+1452,180250,Salajka,Salajka,4,grejanje na gas,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",103,uknjiženo,u izgradnji,useljivo,2022,3/4
+1453,97850, Detelinara,Nova Detelinara,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",50,uknjiženo,u izgradnji,useljivo,2022,4/5
+1454,220700, Adamovićevo Naselje,Cara Dušana,4,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",104,nije uknjiženo,u izgradnji,useljivo,2022,2/7
+1455,66950,Podbara,Podbara,0.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",24,uknjiženo,u izgradnji,useljivo,2022,2/5
+1456,133900, Stari Grad,Kej,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",45,uknjiženo,renovirano,useljivo,2022,1/3
+1457,129800,Grbavica,Grbavica,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",70,uknjiženo,uobičajeno stanje,useljivo,2000,3/6
+1458,73130, Detelinara,Nova Detelinara,1,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",29,uknjiženo,uobičajeno stanje,useljivo,2000,prizemlje/3
+1459,96820, Telep,Bulevar Patrijarha Pavla (Somborski Bulevar),1.5,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",38,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1460,60800,Adice,KRALJA MILANA,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",65,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1461,111150,Avijatičarsko Naselje,RUMENACKI PUT,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",67,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1462,98900,Petrovaradin,TRANDZAMENTSKA,3,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",80,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1463,113300,Petrovaradin,PRERADOVICEVA,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",90,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1464,132000, Rotkvarija,LUKIJANA MUSICKOG,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",74,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1465,77250,Novo Naselje,MILEVE MARIC,1.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",56,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1466,93750,Adice,VETERNICKA,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",74,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1467,118450,Bulevar Oslobođenja,BUL.OSLOBODJENJA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",74,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1468,108150, Telep,BUL.PATRIJARHA PAVLA,2.5,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",56,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1469,147800, Stari Grad,BUL.OSLOBODJENJA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",82,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1470,113300, Telep,BUL.PATRIJARHA PAVLA,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",77,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1471,132000,Novo Naselje,BUL.VOJVODE STEPE,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",80,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1472,82550,Novo Naselje,FUTOSKI PUT,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",48,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1473,111250,Bulevar Oslobođenja,FUTOSKA,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",65,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1474,123600,Sajmište,MICURINOVA,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",102,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1475,100950,Petrovaradin,MAJURSKA,4,grejanje na struju,namešteno,ima lift (1),"telefon, kablovska",114,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1476,72100,Telep,PETEFI SANDORA,1.5,grejanje na struju,namešteno,ima lift (1),"telefon, kablovska",35,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1477,133990,Telep,LAZE LAZAREVICA,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",85,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1478,76200,Adamovićevo Naselje,LAZE NANCICA,2,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",57,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1479,95200,Bulevar Oslobođenja,BUL.OSLOBODJENJA,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",61,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1480,106900,Bulevar Oslobođenja,GAGARINOVA,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",69,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1481,115500, Banatić,GAGARINOVA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",77,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1482,92700,Bulevar Evrope,VARDARSKA,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",45,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1483,149350, Stari Grad,TRG REPUBLIKE,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",87,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1484,117000,Salajka,DJORDJA ZLICICA,3,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",72,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1485,123600, Podbara,KOZACINSKOG,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",68,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1486,52200,Petrovaradin,687,1,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",26,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1487,92700,Telep,SARPLANINSKA,3,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",74,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1488,128450,Bulevar Oslobođenja,NOVOSADSKOG SAJMA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",86,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1489,199820, Liman,SUNCANI KEJ,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",83,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1490,106100, Detelinara,JANKA CMELIKA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",65,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1491,105000,Telep,FEJES KLARE,2.5,grejanje na struju,namešteno,ima lift (1),"telefon, kablovska",66,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1492,93700,Bulevar Oslobođenja,DIMITRIJA AVRAMOVICA,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",49,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1493,93900,Bulevar Oslobođenja,BUL.OSLOBODJENJA,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",48,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1494,113300,Telep,654,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",92,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1495,219400, Podbara,683,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",106,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1496,94750,Novo Naselje,BUL.JOVANA DUCICA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",62,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1497,108150, Rotkvarija,VUKA KARADZICA,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",60,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1498,86500,Adice,STEVANA BAJE GARDINOVACKOG,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",70,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1499,62300,Adice,NIKOLE ALEKSICA,1,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",35,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1500,69000,Adice,CETINJSKA,2,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",55,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1501,72100,Adice,BRANKA COPICA,2.5,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",49,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1502,128750, Detelinara,VESELINA MASLESE,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",79,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1503,109700,Adice,PROTE MIROSAVLJEVICA,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",71,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1504,55620,Sajmište,RUMENACKA,1,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",27,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1505,128600,Podbara,GUNDULICEVA,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",78,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1506,134800,Novo Naselje,STEVANA DEJANOVA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",77,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1507,113300, Podbara,BEOGRADSKI KEJ,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",71,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1508,157600,Grbavica,MISE DIMITRIJEVICA,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",85,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1509,113300,Novo Naselje,BUL.KNEZA MILOSA,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",98,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1510,164800,Salajka,621,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",104,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1511,278100,Podbara,Podbara,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",104,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1512,82400,Podbara,SAVE VUKOVICA,2,grejanje na struju,namešteno,ima lift (1),"telefon, kablovska",56,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1513,97750,Adice,CEREVICKA,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",73,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1514,51500, Stari Grad,SKERLICEVA,1,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",20,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1515,84150,Klisa,TEMERINSKA,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",86,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1516,86900,Adice,613,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",68,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1517,102400,Adice,613,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",71,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1518,94100,Adice,DESANKE MAKSIMOVIC,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",63,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1519,113300,Bulevar Evrope,VESELINA MASLESE,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",81,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1520,86500,Adice,613,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",60,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1521,92700, Stari Grad,ZELEZNICKA,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",39,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1522,92300, Rotkvarija,KRALJEVICA MARKA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",64,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1523,127700, Stari Grad,MAKSIMA GORKOG,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",62,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1524,108200,Klisa,629,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",72,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1525,118300, Rotkvarija,VOJVODE SUPLJIKCA,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",70,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1526,113300, Detelinara,ILIJE BIRCANINA,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",91,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1527,117900,Petrovaradin,PRERADOVICEVA,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",85,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1528,123600,Adamovićevo Naselje,ARANJI JANOSA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",89,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1529,114500,Podbara,609,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",62,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1530,82400,Grbavica,MISE DIMITRIJEVICA,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",40,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1531,88600,Klisa,CENEJSKA,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",91,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1532,95250, Detelinara,VESELINA MASLESE,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",65,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1533,111150,Novo Naselje,DUSANA DANILOVICA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",60,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1534,136800, Stari Grad,JOVANA SUBOTICA,4.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",83,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1535,69000,Detelinara,KORNELIJA STANKOVICA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",67,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1536,60250,Adice,613,1.5,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",39,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1537,133900, Stari Grad,VLADIKE PLATONA,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",67,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1538,97350, Adice,657,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",70,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1539,132500,Sremska Kamenica,707,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",83,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1540,262650,Bulevar Evrope,VARDARSKA,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",115,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1541,64900, Telep,BUL.PATRIJARHA PAVLA,1,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",42,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1542,82400,Adice,CEREVICKA,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",65,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1543,92700,Novo Naselje,KAMENDINSKA,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",59,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1544,66950,Adice,613,2,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",48,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1545,69300,Novo Naselje,SELJACKIH BUNA,1.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",42,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1546,100950, Banatić,JOVANA HRANILOVICA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",70,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1547,98800,Petrovaradin,OKRUGLICEVA,2.5,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",64,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1548,193650,Telep,654,4,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",99,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1549,128750,Grbavica,LASLA GALA,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",65,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1550,137200,Bulevar Evrope,BUL.EVROPE,3,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",74,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1551,113300,Bulevar Evrope,POLGAR ANDRASA,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",70,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1552,100950,Bulevar Oslobođenja,GAGARINOVA,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",68,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1553,216000, Stari Grad,MATICE SRPSKE,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",85,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1554,82400,Petrovaradin,PRERADOVICEVA,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",63,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1555,126700,Salajka,TEMERINSKA,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",93,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1556,113300,Petrovaradin,STROSMAJEROVA,3,grejanje na struju,namešteno,ima lift (1),"telefon, kablovska",80,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1557,97850,Petrovaradin,JOVANA MONASTERLIJE,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",74,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1558,97400,Grbavica,GOGOLJEVA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",63,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1559,144200,Bulevar Oslobođenja,CIRPANOVA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",70,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1560,82400, Novo Naselje,FUTOSKI PUT,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",50,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1561,168300,Bulevar Evrope,BUL.EVROPE,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",86,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1562,103800, Detelinara,DR.S.KASAPINOVICA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",84,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1563,66950,Petrovaradin,PRERADOVICEVA,2.5,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",58,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1564,72100,Bulevar Oslobođenja,FUTOSKA,1,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",32,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1565,82400, Telep,KOSTE ABRASEVICA,2,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",67,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1566,103000, Rotkvarija,LUKIJANA MUSICKOG,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",85,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1567,157200, Detelinara,JANKA CMELIKA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",113,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1568,139500,Bulevar Oslobođenja,BEM LILIKE,3,grejanje na struju,namešteno,ima lift (1),"telefon, kablovska",75,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1569,91200, Rotkvarija,MASARIKOVA,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",60,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1570,162800,Telep,HEROJA PINKIJA,2,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",67,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1571,154500,Salajka,KISACKA,4.5,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",109,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1572,103000, Stari Grad,LAZE TELECKOG,2.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",61,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1573,133900, Stari Grad,STRAZILOVSKA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",65,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1574,103000,Novo Naselje,STANOJA STANOJEVICA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",74,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1575,99950, Rotkvarija,VOJVODE BOJOVICA,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",65,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1576,82400, Stari Grad,MAKSIMA GORKOG,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",40,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1577,82400, Stari Grad,DIMITRIJA TUCOVICA,2,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",49,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1578,99800,Detelinara,619,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",57,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1579,66950,Petrovaradin,PRERADOVICEVA,2,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",47,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1580,98900,Podbara,TEKELIJINA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",76,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1581,68500, Liman,NARODNOG FRONTA,1,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",33,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1582,131100, Telep,DALMATINSKA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",67,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1583,133990, Banatić,KISACKA,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",84,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1584,109200,Klisa,629,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",75,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1585,121900, Banatić,BERISLAVA BERICA,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",74,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1586,98800,Adice,VETERNICKA,4,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",69,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1587,115900,Podbara,BELE NJIVE,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",90,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1588,154500, Detelinara,DR.S.KASAPINOVICA,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",113,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1589,82400,Adice,BRANKA COPICA,3,etažno grejanje,namešteno,ima lift (1),"telefon, kablovska",72,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1590,131850, Detelinara,JOAKIMA VUJICA,4,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",114,uknjiženo,uobičajeno stanje,useljivo,2000,4/5
+1591,111550, Stari Grad,Riblja Pijaca,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",57,uknjiženo,uobičajeno stanje,useljivo,1965,1/5
+1592,309000,Petrovaradin,Petrovaradin,4,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",142,uknjiženo,uobičajeno stanje,useljivo,2022,5/5
+1593,118900,Telep,Telep,2.5,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",58,uknjiženo,uobičajeno stanje,useljivo,2023,3/3
+1594,81100,Telep,Telep,1.5,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",38,uknjiženo,uobičajeno stanje,useljivo,2023,visoko
+1595,118150,Telep,Telep,2.5,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",58,uknjiženo,uobičajeno stanje,useljivo,2023,2/3
+1596,126900,Telep,Telep,2.5,grejanje na gas,namešteno,ima lift (1),"telefon, kablovska",63,uknjiženo,uobičajeno stanje,useljivo,2023,2/3
