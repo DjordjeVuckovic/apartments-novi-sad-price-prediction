@@ -22,7 +22,7 @@ if __name__ == '__main__':
     driver = webdriver.Chrome(options=options, service=s)
     dictionary = {}
     table_data = []
-    with open('../resources/links.csv', 'r', newline='', encoding='utf-8') as f:
+    with open('../resources/finalLinks.csv', 'r', newline='', encoding='utf-8') as f:
         reader = csv.reader(f, delimiter=',')
         for row in reader:
             print(row)
@@ -31,17 +31,20 @@ if __name__ == '__main__':
                 elems = driver.find_elements(By.CLASS_NAME, "value")
                 labels = driver.find_elements(By.CLASS_NAME, "label")
                 address = driver.find_element(By.CLASS_NAME, "address")
-                time.sleep(1)
+                location = driver.find_element(By.CLASS_NAME, "location")
+                # time.sleep(1)
                 for i in range(len(elems)):
+                    dictionary['Lokacija'] = location.text
                     dictionary['Adresa:'] = address.text
                     dictionary[labels[i].text] = elems[i].text
                     new_dic = copy.deepcopy(dictionary)
                 print(table_data)
                 table_data.append(new_dic)
+                with open('../resources/finalApartments.json', 'w', encoding='utf-8') as f:
+                    json.dump(table_data, f, sort_keys=True)
             except NoSuchElementException:
                 time.sleep(2)
-    print(table_data)
 
-    with open('../resources/apart.json', 'w', encoding='utf-8') as f:
-        json.dump(table_data, f, sort_keys=True)
-    driver.close()
+    # with open('../resources/finalApartments.json', 'w', encoding='utf-8') as f:
+    #     json.dump(table_data, f, sort_keys=True)
+    #driver.close()

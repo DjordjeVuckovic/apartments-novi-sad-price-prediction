@@ -13,14 +13,15 @@ from selenium.webdriver.chrome.options import Options
 
 PATH = '/Users/djord/Downloads/chromedriver1.exe'
 OPTIONS = 'C:\Program Files\Google\Chrome Beta\Application\chrome.exe'
-ITERATE = 101
+ITERATE_FINISH = 201
+ITERATE_START = 1
 
 if __name__ == '__main__':
     s = Service(PATH)
     options = Options()
     options.binary_location = OPTIONS
     driver = webdriver.Chrome(options=options, service=s)
-    for page in range(1, ITERATE):
+    for page in range(ITERATE_START, ITERATE_FINISH):
         url = 'https://www.4zida.rs/prodaja-stanova/novi-sad'
         page_num = '?strana=' + str(page)
         driver.get(url + page_num)
@@ -38,7 +39,7 @@ if __name__ == '__main__':
             href = elem.get_attribute('href')
             print(href)
             hrefs.append(href)
-        time.sleep(1)
+        # time.sleep(1)
         with open('../resources/links.csv', 'w', encoding='utf-8') as f:
             writer = csv.writer(f)
             for hr in hrefs:

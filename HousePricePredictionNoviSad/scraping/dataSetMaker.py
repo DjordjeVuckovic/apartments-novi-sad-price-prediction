@@ -33,9 +33,18 @@ def calculate_year(elem, years):
         years.append('0')
 
 
+def parse_location(location, current_locations):
+    splited = location.split(",")
+    if "Gradske" in splited[1]:
+        locations.append(splited[0])
+    else:
+        locations.append(splited[1])
+
+
+
 if __name__ == '__main__':
     list_dictionary = {}
-    with open("../resources/apart.json", "r", encoding='utf-8') as infile:
+    with open("../resources/finalApartments.json", "r", encoding='utf-8') as infile:
         list_dictionary = json.load(infile)
     prices = []
     addresses = []
@@ -51,6 +60,7 @@ if __name__ == '__main__':
     availables = []
     yearOfBuild = []
     floors = []
+    locations = []
     print(list_dictionary[:10])
     print("Length of map:" + str(len(list_dictionary)))
     for i in range(len(list_dictionary)):
@@ -62,11 +72,12 @@ if __name__ == '__main__':
         lifts.append(list_dictionary[i]['Lift:'])
         stores.append(list_dictionary[i]['Opremljenost:'])
         evidents.append(list_dictionary[i]['Uknjiženost:'])
-        states.append(list_dictionary[i]['Stanje:'])
-        availables.append(list_dictionary[i]['Useljivo:'])
+        states.append(list_dictionary[i].get('Stanje:'))
+        availables.append(list_dictionary[i].get('Useljivo:'))
         calculate_nums(list_dictionary[i]['Spratnost:'], floors)
         calculate_area(list_dictionary[i]['Površina:'], areas)
         calculate_year(list_dictionary[i].get('Godina izgradnje:'), yearOfBuild)
+        parse_location(list_dictionary[i]['Lokacija'], locations)
 
     # print("Length of prices:" + str(len(prices)))
     # print("Length of addresses:" + str(len(addresses)))
@@ -76,25 +87,25 @@ if __name__ == '__main__':
     # print("Length of lifts:" + str(len(lifts)))
     # print("Length of stores:" + str(len(stores)))
     # print("Length of areas:" + str(len(areas)))
-    print(prices)
-    print(addresses)
-    print(rooms)
-    print(grs)
-    print(nams)
-    print(lifts)
-    print(stores)
-    print(areas)
-    print(evidents)
-    print(states)
-    print(availables)
-    print(yearOfBuild)
-    print(floors)
-    data_tuples = list(zip(prices[:], addresses[:], rooms[:], grs[:],
+    # print(prices)
+    # print(addresses)
+    # print(rooms)
+    # print(grs)
+    # print(nams)
+    # print(lifts)
+    # print(stores)
+    # print(areas)
+    # print(evidents)
+    # print(states)
+    # print(availables)
+    # print(yearOfBuild)
+    # print(floors)
+    data_tuples = list(zip(prices[:],locations[:], addresses[:], rooms[:], grs[:],
                            nams[:], lifts[:], stores[:], areas[:], evidents[:], states[:], availables[:],
                            yearOfBuild[:], floors[:]))  # list of each players name and salary paired together
-    temp_df = pd.DataFrame(data_tuples, columns=['Price(EUR)', 'Address', 'Rooms', 'Heating',
+    temp_df = pd.DataFrame(data_tuples, columns=['Price(EUR)', 'Location', 'Address', 'Rooms', 'Heating',
                                                  'SetUp', 'Elevator', 'Stores', 'Area(m2)', 'Evident', 'State',
                                                  'Infrared', 'YearOfBuild',
                                                  'Floor'])  # creates dataframe of each tuple in list
-    temp_df.to_csv('dataSet/house_prediction.csv', encoding='utf-8')
+    temp_df.to_csv('finalPrediction.csv', encoding='utf-8')
     print(temp_df)
