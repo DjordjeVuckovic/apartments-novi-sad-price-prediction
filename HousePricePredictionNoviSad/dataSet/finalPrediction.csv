@@ -1,11 +1,11 @@
 ,Price(EUR),Location,Address,Rooms,Heating,SetUp,Elevator,Stores,Area(m2),Evident,State,Infrared,YearOfBuild,Floor
-0,149350, Liman,Liman 4,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",58,uknjiženo,,,0,1/5
-1,113300, Detelinara,Nova Detelinara,2.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",59,uknjiženo,,useljivo,0,1/5
-2,80000, Detelinara,Nova Detelinara,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",38,uknjiženo,,useljivo,0,4/6
-3,95280,Bulevar Oslobođenja,Bulevar Oslobođenja,1,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon",49,uknjiženo,,useljivo,0,7.
-4,118450, Liman,Liman 3,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon",57,uknjiženo,,useljivo,0,4.
-5,115350,Banatić,Banatić,3,centralno grejanje,prazno,ima lift (1),"telefon, internet, interfon, klima",77,uknjiženo,,useljivo,0,3/8
-6,105000,Bulevar Oslobođenja,Bulevar Oslobođenja,2.5,centralno grejanje,prazno,ima lift (1),telefon,60,nije uknjiženo,,useljivo,0,visoko
+0,149350, Liman,Liman 4,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",58,uknjiženo,,,,1/5
+1,113300, Detelinara,Nova Detelinara,2.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",59,uknjiženo,,useljivo,,1/5
+2,80000, Detelinara,Nova Detelinara,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",38,uknjiženo,,useljivo,,4/6
+3,95280,Bulevar Oslobođenja,Bulevar Oslobođenja,1,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon",49,uknjiženo,,useljivo,,7.
+4,118450, Liman,Liman 3,2,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon",57,uknjiženo,,useljivo,,4.
+5,115350, Banatić,Banatić,3,centralno grejanje,prazno,ima lift (1),"telefon, internet, interfon, klima",77,uknjiženo,,useljivo,,3/8
+6,105000,Bulevar Oslobođenja,Bulevar Oslobođenja,2.5,centralno grejanje,prazno,ima lift (1),telefon,60,nije uknjiženo,,useljivo,,visoko
 7,67900, Detelinara,Nova Detelinara,2,centralno grejanje,prazno,ima lift (1),telefon,47,nije uknjiženo,,useljivo,1965,3/4
 8,108500, Detelinara,Nova Detelinara,2.5,centralno grejanje,prazno,ima lift (1),telefon,81,uknjiženo,uobičajeno stanje,useljivo,2006,5/5
 9,103000, Klisa,Šonsi,2,centralno grejanje,prazno,ima lift (1),telefon,64,uknjiženo,uobičajeno stanje,useljivo,1990,2/4

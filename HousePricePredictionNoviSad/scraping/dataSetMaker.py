@@ -5,6 +5,12 @@ import json
 def calculate_nums(price, lists):
     lists.append(price.split()[0])
 
+def calculate_floor(floor, lists):
+    splits = floor.split()
+    spl = splits[0].split("/")
+    s = spl[0].split(".")[0]
+    lists.append(s)
+
 
 def calculate_price(price, lists):
     splits = price.split()
@@ -36,9 +42,26 @@ def calculate_year(elem, years):
 def parse_location(location, current_locations):
     splited = location.split(",")
     if "Gradske" in splited[1]:
-        locations.append(splited[0])
+        if splited[0][0] == ' ':
+            locations.append(splited[0][1:])
+        else:
+            locations.append(splited[0])
     else:
-        locations.append(splited[1])
+        if splited[1][0] == ' ':
+            locations.append(splited[1][1:])
+        else:
+            locations.append(splited[1])
+
+def parseAdress(adress,addresses):
+    if "centar" in adress.lower():
+        addresses.append("Centar")
+    elif "nova detelinara" in adress.lower():
+            addresses.append("Nova Detelinara")
+    else:
+        if adress[0] == ' ':
+            addresses.append(adress[1:])
+        else:
+            addresses.append(adress)
 
 
 if __name__ == '__main__':
@@ -69,7 +92,7 @@ if __name__ == '__main__':
     for i in range(len(list_dictionary)):
         calculate_price(list_dictionary[i]['Cena:'], prices)
         calculate_nums(list_dictionary[i]['Broj soba:'], rooms)
-        addresses.append(list_dictionary[i]['Adresa:'])
+        parseAdress(list_dictionary[i]['Adresa:'], addresses)
         grs.append(list_dictionary[i]['Grejanje:'])
         nams.append(list_dictionary[i]['Nameštenost:'])
         lifts.append(list_dictionary[i].get('Lift:'))
@@ -77,7 +100,7 @@ if __name__ == '__main__':
         evidents.append(list_dictionary[i]['Uknjiženost:'])
         states.append(list_dictionary[i].get('Stanje:'))
         availables.append(list_dictionary[i].get('Useljivo:'))
-        calculate_nums(list_dictionary[i]['Spratnost:'], floors)
+        calculate_floor(list_dictionary[i]['Spratnost:'], floors)
         calculate_area(list_dictionary[i]['Površina:'], areas)
         calculate_year(list_dictionary[i].get('Godina izgradnje:'), yearOfBuild)
         parse_location(list_dictionary[i]['Lokacija'], locations)
@@ -110,5 +133,5 @@ if __name__ == '__main__':
                                                  'SetUp', 'Elevator', 'Stores', 'Area(m2)', 'Evident', 'State',
                                                  'Infrared', 'YearOfBuild',
                                                  'Floor'])  # creates dataframe of each tuple in list
-    temp_df.to_csv('finalPrediction.csv', encoding='utf-8')
+    temp_df.to_csv('theFinalFinalPrediction.csv', encoding='utf-8')
     print(temp_df)

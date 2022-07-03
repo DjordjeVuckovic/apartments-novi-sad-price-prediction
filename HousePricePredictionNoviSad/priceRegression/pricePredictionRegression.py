@@ -4,8 +4,9 @@ import matplotlib.pylab as plt
 pd.pandas.set_option('display.max_columns', None)
 
 if __name__ == '__main__':
-    data = pd.read_json('../resources/finalApartments2.json')
+    data = pd.read_csv('../dataSet/theFinalFinalPrediction.csv.')
     features_nan = [ feature for feature in data.columns if data[feature].isnull().sum()>1 and data[feature].dtypes=='O']
+    features_nan_numerical = [feature for feature in data.columns if data[feature].isnull().sum()>1 and data[feature].dtypes!='O']
 
     # for feature in features_nan:
     #     print("{}: {}% missing values".format(feature, np.round(data[feature].isnull().mean(),4)))
@@ -19,10 +20,33 @@ if __name__ == '__main__':
         return data
 
     data = replace_cat_feature(data,features_nan)
-    #print(data[features_nan].isnull().sum())
+    print(data[features_nan].isnull().sum())
 
-    features_nan_numerical = [feature for feature in data.columns if data[feature].isnull().sum() > 1 and data[feature].dtypes != 'O']
     for feature in features_nan_numerical:
-        print("{}: {}% missing values".format(feature, np.round(data[feature].isnull().mean(),4)))
+        mid_value = data[feature].median()
+        data[feature+'WasNan']= np.where(data[feature].isnull(),1,0)
+        data[feature]=data[feature].fillna(mid_value)
+    print(data[features_nan_numerical].isnull().sum())
 
-    print(data)
+    categorical_features = [feature for feature in data.columns if data[feature].dtype == 'O']
+    print(categorical_features)
+
+    for feature in categorical_features:
+        temp = data.groupby(feature)['Price(EUR)'].count()/len(data)
+        temp_df = temp[temp>0.005].index
+        data[feature] = np.where(data[feature].isin(temp_df),data[feature],'Rare_var')
+
+    # for feature in categorical_features:
+    #      print('Feature: {}  -- number of cat: {}'.format(feature,len(data[feature].unique())))
+
+    for feature in categorical_features:
+        print('Feature: {}  -- number of cat: {}'.format(feature,data[feature].unique()))
+
+    #print(data.head(15))
+    # for feature in features_nan_numerical:
+    #     print("{}: {}% missing values".format(feature, np.round(data[feature].isnull().mean(),4)))
+
+    # print(data[features_nan_numerical].isnull().sum())
+
+    # categorical_features = [ feature for feature in data.columns if data[feature].dtype=='O']
+    # print(categorical_features)
