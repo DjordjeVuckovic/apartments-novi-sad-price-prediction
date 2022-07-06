@@ -5,14 +5,17 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn import ensemble
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import  r2_score
+
 
 pd.pandas.set_option('display.max_columns', None)
 
 if __name__ == '__main__':
     data = pd.read_csv('first_data.csv')
     # print(data.head())
-    data.drop(['Index', 'Stores'], axis=1, inplace=True)
-    # data.info()
+    #data.drop(['Index', 'Stores'], axis=1, inplace=True)
+    data.info()
     print(data.columns)
     sns.pairplot(data)
     plt.show()
@@ -22,7 +25,7 @@ if __name__ == '__main__':
     # print(max_x)
     X = data[['Address', 'Location', 'Rooms', 'Heating', 'Elevator', 'Area(m2)', 'Evident', 'State', 'Infrared',
               'YearOfBuild', 'Floor', 'YearOfBuildWasNan']]
-    X = data[['Rooms', 'Area(m2)', 'YearOfBuild', 'YearOfBuildWasNan']]
+    X = data[['Rooms', 'Area(m2)', 'YearOfBuild']]
     y = data['Price(EUR)']
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=101)
     lm = LinearRegression()
@@ -31,7 +34,6 @@ if __name__ == '__main__':
     print("Slope:")
     print(lm.coef_)
     print("Intercept:")
-    plt.plot(X,)
     print(lm.intercept_)
     intercept = lm.intercept_
     slope = lm.coef_
@@ -54,4 +56,11 @@ if __name__ == '__main__':
     clf = ensemble.GradientBoostingRegressor(n_estimators=400, max_depth=5, min_samples_split=2,
                                              learning_rate=0.1, loss='ls')
     clf.fit(X_train, y_train)
+    print("GradientBoostingRegressor:" )
     print(clf.score(X_test, y_test))
+    model = RandomForestRegressor()
+    model.fit(X_train, y_train)
+    y_pr = model.predict(X_test)
+    print("RandomForestRegressor:")
+    print(r2_score(y_test,y_pr))
+
