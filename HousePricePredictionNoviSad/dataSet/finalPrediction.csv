@@ -1,4 +1,4 @@
-,Price(EUR),Location,Address,Rooms,Heating,SetUp,Elevator,Stores,Area(m2),Evident,State,Infrared,YearOfBuild,Floor
+Id,Price(EUR),Location,Address,Rooms,Heating,SetUp,Elevator,Stores,Area(m2),Evident,State,Infrared,YearOfBuild,Floor
 0,149350, Liman,Liman 4,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",58,uknjiženo,,,,1/5
 1,113300, Detelinara,Nova Detelinara,2.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",59,uknjiženo,,useljivo,,1/5
 2,80000, Detelinara,Nova Detelinara,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",38,uknjiženo,,useljivo,,4/6
