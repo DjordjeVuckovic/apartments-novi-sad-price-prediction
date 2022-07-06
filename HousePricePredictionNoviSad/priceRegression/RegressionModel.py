@@ -17,6 +17,11 @@ if __name__ == '__main__':
     #data.drop(['Index', 'Stores'], axis=1, inplace=True)
     data.info()
     print(data.columns)
+    data = pd.read_csv('last_data.csv')
+    #print(data.head())
+
+    # data.info()
+    #print(data.columns)
     sns.pairplot(data)
     plt.show()
     sns.heatmap(data.corr(), annot=True)

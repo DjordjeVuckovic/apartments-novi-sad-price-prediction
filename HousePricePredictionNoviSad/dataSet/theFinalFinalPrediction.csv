@@ -1,4 +1,4 @@
-,Price(EUR),Location,Address,Rooms,Heating,SetUp,Elevator,Stores,Area(m2),Evident,State,Infrared,YearOfBuild,Floor
+Id,Price(EUR),Location,Address,Rooms,Heating,SetUp,Elevator,Stores,Area(m2),Evident,State,Infrared,YearOfBuild,Floor
 0,149350,Liman,Liman 4,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",58,uknjiženo,,,,1
 1,113300,Detelinara,Nova Detelinara,2.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",59,uknjiženo,,useljivo,,1
 2,80000,Detelinara,Nova Detelinara,1.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",38,uknjiženo,,useljivo,,4
@@ -249,7 +249,6 @@
 247,108000,Sajmište,Sajmište,2,centralno grejanje,prazno,ima lift (1),"kablovska, internet, interfon",60,uknjiženo,uobičajeno stanje,useljivo,1936,visoko
 248,107120,Slana Bara,Slana Bara,4,podno grejanje,prazno,ima lift (1),interfon,80,uknjiženo,u izgradnji,useljivo,1936,1
 249,89720,Adice,Adice,3,podno grejanje,prazno,ima lift (1),interfon,67,uknjiženo,u izgradnji,useljivo,1936,1
-250,69600,Podbara,bele njive,1,centralno grejanje,namešteno,ima lift (1),interfon,69600,uknjiženo,u izgradnji,useljivo,1936,4
 251,117830,Salajka,Salajka,3.5,grejanje na gas,prazno,ima lift (1),interfon,65,u procesu uknjižavanja,u izgradnji,useljivo,1936,1
 252,113300,Stari Grad,Dunavski Park,2,centralno grejanje,prazno,ima lift (1),interfon,44,uknjiženo,renovirano,useljivo,1936,1
 253,127800,Detelinara,Nova Detelinara,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska",65,u procesu uknjižavanja,u izgradnji,useljivo,1936,5
