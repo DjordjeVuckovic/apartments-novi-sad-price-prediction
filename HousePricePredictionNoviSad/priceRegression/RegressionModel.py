@@ -9,11 +9,11 @@ from sklearn import ensemble
 pd.pandas.set_option('display.max_columns', None)
 
 if __name__ == '__main__':
-    data = pd.read_csv('first_data.csv')
-    # print(data.head())
-    data.drop(['Index', 'Stores'], axis=1, inplace=True)
+    data = pd.read_csv('last_data.csv')
+    #print(data.head())
+
     # data.info()
-    print(data.columns)
+    #print(data.columns)
     sns.pairplot(data)
     plt.show()
     sns.heatmap(data.corr(), annot=True)

@@ -26,7 +26,8 @@ if __name__ == '__main__':
         data[feature+'WasNan']= np.where(data[feature].isnull(),1,0)
         data[feature]=data[feature].fillna(mid_value)
     print(data[features_nan_numerical].isnull().sum())
-    #data.drop(["Stores"], axis=1, inplace=True)
+    data.drop(["Stores"], axis=1, inplace=True)
+    data.drop(["Id"], axis=1, inplace=True)
     categorical_features = [feature for feature in data.columns if data[feature].dtype == 'O']
     # print(categorical_features)
 
@@ -70,22 +71,23 @@ if __name__ == '__main__':
 
     data = category_onehot_multcols(categorical_features)
 
-    feature_scale = [feature for feature in data.columns if feature not in ['Id', 'Price(EUR)']  and data[feature].dtypes!='O']
+
+    feature_scale = [feature for feature in  data.columns if feature  in ['Rooms', 'Area(m2)', 'YearOfBuild']]
 
     scaler = MinMaxScaler()
     scaler.fit(data[feature_scale])
     MinMaxScaler(copy=True, feature_range=(0, 1))
-    scaler.transform(data[feature_scale])
+    data[feature_scale] = scaler.transform(data[feature_scale])
 
-    dataset = pd.concat([data[['Id', 'Price(EUR)']].reset_index(drop=True),
-                      pd.DataFrame(scaler.transform(data[feature_scale]), columns=feature_scale)],
-                     axis=1)
+    # dataset = pd.concat([data[['Id', 'Price(EUR)']].reset_index(drop=True),
+    #                   pd.DataFrame(scaler.transform(data[feature_scale]), columns=feature_scale)],
+    #                  axis=1)
 
 
-    print(dataset.head(15))
-    print(dataset.shape)
+    print(data.head(15))
+    # print(dataset.shape)
 
-#     data.to_csv('first_data.csv', index=False)
+    data.to_csv('last_data.csv', index=False)
 #     #print(data.head(15))
 
     # for feature in features_nan_numerical:
