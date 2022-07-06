@@ -10,10 +10,6 @@ if __name__ == '__main__':
 
     # for feature in features_nan:
     #     print("{}: {}% missing values".format(feature, np.round(data[feature].isnull().mean(),4)))
-
-
-
-
     def replace_cat_feature(dataset,feature_nan):
         data = dataset.copy()
         data[feature_nan] = data[feature_nan].fillna('Missing')
@@ -42,6 +38,7 @@ if __name__ == '__main__':
     for feature in categorical_features:
         print('Feature: {}  -- number of cat: {}'.format(feature,data[feature].unique()))
 
+    data.to_csv('first_data.csv', index=False)
     #print(data.head(15))
     # for feature in features_nan_numerical:
     #     print("{}: {}% missing values".format(feature, np.round(data[feature].isnull().mean(),4)))
