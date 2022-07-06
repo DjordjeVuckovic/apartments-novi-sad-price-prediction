@@ -13,7 +13,6 @@ if __name__ == '__main__':
     # for feature in features_nan:
     #     print("{}: {}% missing values".format(feature, np.round(data[feature].isnull().mean(),4)))
 
-
     def replace_cat_feature(dataset,feature_nan):
         data = dataset.copy()
         data[feature_nan] = data[feature_nan].fillna('Missing')
@@ -82,8 +81,13 @@ if __name__ == '__main__':
                       pd.DataFrame(scaler.transform(data[feature_scale]), columns=feature_scale)],
                      axis=1)
 
+
     print(dataset.head(15))
     print(dataset.shape)
+
+#     data.to_csv('first_data.csv', index=False)
+#     #print(data.head(15))
+
     # for feature in features_nan_numerical:
     #     print("{}: {}% missing values".format(feature, np.round(data[feature].isnull().mean(),4)))
 
