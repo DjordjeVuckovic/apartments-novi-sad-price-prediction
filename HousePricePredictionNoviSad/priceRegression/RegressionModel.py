@@ -21,22 +21,23 @@ if __name__ == '__main__':
     # print(data.columns)
     # print(data.head())
 
-    data.info()
-    # print(data.columns)
-    # sns.pairplot(data)
+    #data.info()
+    #print(data.columns)
+    #sns.pairplot(data)
     # plt.show()
     # sns.heatmap(data.corr(), annot=True)
     # plt.show()
     # max_x = data.loc[data['Area(m2)'].idxmax()]
     # print(max_x)
-    y = data['Price(EUR)']
-    # print(y)
-    data.drop(['Price(EUR)'], axis=1, inplace=True)
-    X = data[list(data.columns)]
-    print(X.columns)
-    # min_max_scaler = MinMaxScaler().fit(X)
-    # X = min_max_scaler.transform(X)
-    s_scaler = StandardScaler()
+    # y = data['Price(EUR)']
+    # # print(y)
+    # data.drop(['Price(EUR)'], axis=1, inplace=True)
+    # X = data[list(data.columns)]
+    # print(X.columns)
+    X = data.drop('Price(EUR)', axis=1).values
+    y = data['Price(EUR)'].values
+    min_max_scaler = MinMaxScaler().fit(X)
+    X = min_max_scaler.fit_transform(X.astype(float))
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=101)
     lm = Ridge(alpha=20)
     lm.fit(X_train, y_train)
@@ -47,8 +48,6 @@ if __name__ == '__main__':
     print(lm.intercept_)
     intercept = lm.intercept_
     slope = lm.coef_
-    X_train = s_scaler.fit_transform(X_train.astype(float))
-    X_test = s_scaler.transform(X_test.astype(float))
     # coeff_df = pd.DataFrame(lm.coef_, X.columns, columns=['Coefficient'])
     # print(coeff_df)
     # predictions = lm.predict(X_test)
@@ -69,7 +68,7 @@ if __name__ == '__main__':
     clf.fit(X_train, y_train)
     print("GradientBoostingRegressor:")
     print(clf.score(X_test, y_test))
-    model = RandomForestRegressor()
+    model = RandomForestRegressor(n_estimators=300)
     model.fit(X_train, y_train)
     y_pr = model.predict(X_test)
     print("RandomForestRegressor:")
