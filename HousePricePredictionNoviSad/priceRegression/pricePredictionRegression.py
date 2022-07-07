@@ -4,6 +4,8 @@ import matplotlib.pylab as plt
 pd.pandas.set_option('display.max_columns', None)
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import StandardScaler
+
 
 if __name__ == '__main__':
     data = pd.read_csv('../dataSet/theFinalFinalPrediction.csv.')
@@ -70,24 +72,29 @@ if __name__ == '__main__':
 
 
     data = category_onehot_multcols(categorical_features)
+    print(data.shape)
+
+    final_df = data.loc[:, ~data.columns.duplicated()]
+    print(final_df.shape)
+    final_df.info()
+    final_df.to_csv('my_last_data.csv', index=False)
 
 
-    feature_scale = [feature for feature in  data.columns if feature  in ['Rooms', 'Area(m2)', 'YearOfBuild']]
+    #feature_scale = [feature for feature in  data.columns if feature  in ['Rooms', 'Area(m2)', 'YearOfBuild']]
 
-    scaler = MinMaxScaler()
-    scaler.fit(data[feature_scale])
-    MinMaxScaler(copy=True, feature_range=(0, 1))
-    data[feature_scale] = scaler.transform(data[feature_scale])
+    # scaler = MinMaxScaler()
+    # scaler.fit(data[feature_scale])
+    # MinMaxScaler(copy=True, feature_range=(0, 1))
+    # data[feature_scale] = scaler.transform(data[feature_scale])
 
     # dataset = pd.concat([data[['Id', 'Price(EUR)']].reset_index(drop=True),
     #                   pd.DataFrame(scaler.transform(data[feature_scale]), columns=feature_scale)],
     #                  axis=1)
 
 
-    print(data.head(15))
-    # print(dataset.shape)
+    #print(data.head(15))
 
-    data.to_csv('last_data.csv', index=False)
+    #data.to_csv('last_data.csv', index=False)
 #     #print(data.head(15))
 
     # for feature in features_nan_numerical:
