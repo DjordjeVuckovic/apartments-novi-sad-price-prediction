@@ -1,32 +1,30 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pylab as plt
-pd.pandas.set_option('display.max_columns', None)
-from sklearn.preprocessing import OneHotEncoder, LabelEncoder
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.preprocessing import StandardScaler
 
+pd.pandas.set_option('display.max_columns', None)
 
 if __name__ == '__main__':
     data = pd.read_csv('../dataSet/theFinalFinalPrediction.csv.')
-    features_nan = [ feature for feature in data.columns if data[feature].isnull().sum()>1 and data[feature].dtypes=='O']
-    features_nan_numerical = [feature for feature in data.columns if data[feature].isnull().sum()>1 and data[feature].dtypes!='O']
+    features_nan = [feature for feature in data.columns if
+                    data[feature].isnull().sum() > 1 and data[feature].dtypes == 'O']
+    features_nan_numerical = [feature for feature in data.columns if
+                              data[feature].isnull().sum() > 1 and data[feature].dtypes != 'O']
 
-    # for feature in features_nan:
-    #     print("{}: {}% missing values".format(feature, np.round(data[feature].isnull().mean(),4)))
 
-    def replace_cat_feature(dataset,feature_nan):
+    def replace_cat_feature(dataset, feature_nan):
         data = dataset.copy()
         data[feature_nan] = data[feature_nan].fillna('Missing')
         return data
 
-    data = replace_cat_feature(data,features_nan)
+
+    data = replace_cat_feature(data, features_nan)
     print(data[features_nan].isnull().sum())
 
     for feature in features_nan_numerical:
         mid_value = data[feature].median()
-        data[feature+'WasNan']= np.where(data[feature].isnull(),1,0)
-        data[feature]=data[feature].fillna(mid_value)
+        data[feature + 'WasNan'] = np.where(data[feature].isnull(), 1, 0)
+        data[feature] = data[feature].fillna(mid_value)
     print(data[features_nan_numerical].isnull().sum())
     data.drop(["Stores"], axis=1, inplace=True)
     data.drop(["Id"], axis=1, inplace=True)
@@ -34,9 +32,10 @@ if __name__ == '__main__':
     # print(categorical_features)
 
     for feature in categorical_features:
-        temp = data.groupby(feature)['Price(EUR)'].count()/len(data)
-        temp_df = temp[temp>0.005].index
-        data[feature] = np.where(data[feature].isin(temp_df),data[feature],'Rare_var')
+        temp = data.groupby(feature)['Price(EUR)'].count() / len(data)
+        temp_df = temp[temp > 0.005].index
+        data[feature] = np.where(data[feature].isin(temp_df), data[feature], 'Rare_var')
+
 
     # for feature in categorical_features:
     #      print('Feature: {}  -- number of cat: {}'.format(feature,len(data[feature].unique())))
@@ -70,17 +69,18 @@ if __name__ == '__main__':
         return df_final
 
 
-
     data = category_onehot_multcols(categorical_features)
     print(data.shape)
 
     final_df = data.loc[:, ~data.columns.duplicated()]
     print(final_df.shape)
-    final_df.info()
+    # final_df.info()
+    print(final_df['Price(EUR)'].describe())
+    min = data.loc[data['Price(EUR)'].idxmin()]
+    print(min)
     final_df.to_csv('my_last_data.csv', index=False)
 
-
-    #feature_scale = [feature for feature in  data.columns if feature  in ['Rooms', 'Area(m2)', 'YearOfBuild']]
+    # feature_scale = [feature for feature in  data.columns if feature  in ['Rooms', 'Area(m2)', 'YearOfBuild']]
 
     # scaler = MinMaxScaler()
     # scaler.fit(data[feature_scale])
@@ -90,12 +90,6 @@ if __name__ == '__main__':
     # dataset = pd.concat([data[['Id', 'Price(EUR)']].reset_index(drop=True),
     #                   pd.DataFrame(scaler.transform(data[feature_scale]), columns=feature_scale)],
     #                  axis=1)
-
-
-    #print(data.head(15))
-
-    #data.to_csv('last_data.csv', index=False)
-#     #print(data.head(15))
 
     # for feature in features_nan_numerical:
     #     print("{}: {}% missing values".format(feature, np.round(data[feature].isnull().mean(),4)))
