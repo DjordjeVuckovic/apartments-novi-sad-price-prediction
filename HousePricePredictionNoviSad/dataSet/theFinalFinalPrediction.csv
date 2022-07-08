@@ -115,7 +115,7 @@ Id,Price(EUR),Location,Address,Rooms,Heating,SetUp,Elevator,Stores,Area(m2),Evid
 113,91770,Salajka,Salajka,2.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",54,uknjiženo,uobičajeno stanje,useljivo,2022,visoko
 114,126700,Banatić,Železnička stanica,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",64,uknjiženo,uobičajeno stanje,useljivo,2014,1
 115,139000,Grbavica,Grbavica,2.5,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",56,uknjiženo,uobičajeno stanje,useljivo,2008,4
-116,1,Grbavica,Grbavica,4,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",145,uknjiženo,uobičajeno stanje,useljivo,2010,5
+116,215000,Grbavica,Grbavica,4,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",145,uknjiženo,uobičajeno stanje,useljivo,2010,5
 117,101420,Veternik,Veternička Rampa,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",70,uknjiženo,novo,useljivo,2022,2
 118,149350,Rotkvarija,Rotkvarija,3,centralno grejanje,prazno,ima lift (1),Kanalizacija,66,uknjiženo,novo,useljivo,2022,3
 119,126700,Avijatičarsko Naselje,Avijatičarsko Naselje,3,centralno grejanje,polunamešteno,ima lift (1),"frižider, šporet, Kanalizacija",87,uknjiženo,renovirano,useljivo,2022,3
@@ -1140,7 +1140,7 @@ Id,Price(EUR),Location,Address,Rooms,Heating,SetUp,Elevator,Stores,Area(m2),Evid
 1139,94760,Bulevar Evrope,Bulevar Evrope,1.5,centralno grejanje,prazno,ima lift (1),klima,38,uknjiženo,renovirano,useljivo,2009,visoko
 1140,97130,Stari Grad,Spens,1.5,centralno grejanje,prazno,ima lift (1),klima,41,uknjiženo,renovirano,useljivo,1950,1
 1141,51500,Banatić,Železnička stanica,1,centralno grejanje,prazno,ima lift (1),klima,30,uknjiženo,renovirano,useljivo,1978,5
-1142,1,Sajmište,Sajmište,2.5,centralno grejanje,prazno,ima lift (1),klima,56,uknjiženo,renovirano,useljivo,2009,1
+1142,75000,Sajmište,Sajmište,2.5,centralno grejanje,prazno,ima lift (1),klima,56,uknjiženo,renovirano,useljivo,2009,1
 1143,179400,Bulevar Evrope,Bulevar Evrope,4,centralno grejanje,prazno,ima lift (1),klima,97,uknjiženo,u izgradnji,useljivo,2009,visoko
 1144,155000,Stari Grad,Centar,3.5,centralno grejanje,prazno,ima lift (1),klima,99,uknjiženo,u izgradnji,useljivo,2009,3
 1145,154500,Stari Grad,Centar,4,centralno grejanje,prazno,ima lift (1),klima,99,uknjiženo,uobičajeno stanje,useljivo,1935,3
@@ -1288,7 +1288,7 @@ Id,Price(EUR),Location,Address,Rooms,Heating,SetUp,Elevator,Stores,Area(m2),Evid
 1287,113300,Detelinara,Nova Detelinara,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",59,uknjiženo,uobičajeno stanje,useljivo,2016,1
 1288,138700,Telep,Telep,3,centralno grejanje,prazno,ima lift (1),"telefon, kablovska, internet, interfon, klima",69,uknjiženo,uobičajeno stanje,useljivo,2016,1
 1289,85000,Grbavica,Mise Dimitrijevica,1.5,grejanje na gas,prazno,ima lift (1),"telefon, kablovska",53,uknjiženo,potrebno renoviranje,useljivo,2020,1
-1290,1,Petrovaradin,Petrovaradin,2,podno grejanje,prazno,ima lift (1),"telefon, kablovska",1,uknjiženo,u izgradnji,useljivo,2020,2
+1290,1,Petrovaradin,Petrovaradin,2,podno grejanje,prazno,ima lift (1),"telefon, kablovska",43,uknjiženo,u izgradnji,useljivo,2020,2
 1291,92700,Bulevar Oslobođenja,Bulevar Oslobođenja,1.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",30,uknjiženo,uobičajeno stanje,useljivo,2020,1
 1292,192610,Detelinara,Nova Detelinara,3.5,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",85,uknjiženo,uobičajeno stanje,useljivo,2009,5
 1293,113300,Novo Naselje,Novo Naselje,3,centralno grejanje,namešteno,ima lift (1),"telefon, kablovska",73,uknjiženo,uobičajeno stanje,useljivo,1985,2

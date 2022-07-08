@@ -2,6 +2,7 @@ import matplotlib.pylab as plt
 import pandas as pd
 import seaborn as sns
 from sklearn.linear_model import Ridge
+from sklearn.linear_model import Lasso
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn import metrics
@@ -16,6 +17,8 @@ if __name__ == '__main__':
     y = data['Price(EUR)'].values
     s_scaler = StandardScaler()
     #X = s_scaler.fit_transform(X.astype(float))
+    print("----------------------------------------")
+    print("Ridge regression\n")
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=101)
     X_train = s_scaler.fit_transform(X_train.astype(float))
     X_test = s_scaler.transform(X_test.astype(float))
@@ -55,6 +58,11 @@ if __name__ == '__main__':
     plt.xlabel("Model Coefficient Types")
     plt.ylabel("Model Coefficient Values")
     plt.show()
+    print("----------------------------------------")
+    print("Lasso regression")
+    lasso = Lasso(alpha=0.01)
+    regressor.fit(X_train, y_train)
+    print("Lasso score: ",regressor.score(X_test, y_test))
     # price and area model
     X_area = data[['Area(m2)']]
     Y_price = data['Price(EUR)']

@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pylab as plt
-
+import seaborn as sns
 pd.pandas.set_option('display.max_columns', None)
 
 if __name__ == '__main__':
@@ -69,8 +69,24 @@ if __name__ == '__main__':
         return df_final
 
 
+    print(data['Address'].describe())
+    print('UNIQUE VALUES\n')
+    for col in data.columns:
+        print(f'{col}: {len(data[col].unique())}\n')
+    print(data[data.select_dtypes(exclude='object').columns].describe())
+    plt.figure(figsize=(30, 8))
+    sns.heatmap(data.isnull(), cmap='flare')
+    plt.title('Null values')
+    plt.show()
+    # Columns containing most null values
+    total = data.isnull().sum().sort_values(ascending=False)
+    percent = (data.isnull().sum() / data.isnull().count() * 100).sort_values(ascending=False)
+    missing_data = pd.concat([total, percent], axis=1, keys=['Total', 'Percent'])
+    print('Missing data:')
+    print(missing_data.head(10))
+
     data = category_onehot_multcols(categorical_features)
-    print(data.shape)
+    #print(data.shape)
 
     final_df = data.loc[:, ~data.columns.duplicated()]
     print(final_df.shape)
@@ -78,7 +94,7 @@ if __name__ == '__main__':
     print(final_df['Price(EUR)'].describe())
     min = data.loc[data['Price(EUR)'].idxmin()]
     print(min)
-    final_df.to_csv('my_last_data.csv', index=False)
+    #final_df.to_csv('my_last_data.csv', index=False)
 
     # feature_scale = [feature for feature in  data.columns if feature  in ['Rooms', 'Area(m2)', 'YearOfBuild']]
 
