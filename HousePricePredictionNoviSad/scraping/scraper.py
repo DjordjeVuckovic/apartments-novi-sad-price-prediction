@@ -32,10 +32,6 @@ if __name__ == '__main__':
                 labels = driver.find_elements(By.CLASS_NAME, "label")
                 address = driver.find_element(By.CLASS_NAME, "address")
                 location = driver.find_element(By.CLASS_NAME, "location")
-                # lc = driver.find_element(By.CLASS_NAME, "block")
-                # lc1 = lc.find_element(By.CLASS_NAME, "flex")
-                # lc2 = lc1.find_element(By.TAG_NAME, "span")
-                #print(lc1.text)
                 time.sleep(1)
                 for i in range(len(elems)):
                     dictionary['Lokacija'] = location.text
@@ -44,10 +40,8 @@ if __name__ == '__main__':
                     new_dic = copy.deepcopy(dictionary)
                 print(table_data)
                 table_data.append(new_dic)
-            # with open('../resources/final3.json', 'w', encoding='utf-8') as f:
-            #     json.dump(table_data, f, sort_keys=True)
+                with open('../resources/finalApartments.json', 'w', encoding='utf-8') as f:
+                    json.dump(table_data, f, sort_keys=True)
             except NoSuchElementException:
                 time.sleep(2)
-    with open('../resources/finalApartments.json', 'w', encoding='utf-8') as f:
-        json.dump(table_data, f, sort_keys=True)
     driver.close()

@@ -51,6 +51,8 @@ if __name__ == '__main__':
     plt.scatter(data['Stari Grad'], data['Price(EUR)'])
     plt.title("Centar vs YearOfBuild")
     plt.show()
+    sns.boxplot(data=data['YearOfBuild'])
+    plt.show()
     # sns.pairplot(data[['Rooms'], ['Area(m2)'], ['YearOfBuild'], ['Adice'], ['Stari Grad']])
     # plt.show()
     data.dtypes.value_counts().plot.pie()

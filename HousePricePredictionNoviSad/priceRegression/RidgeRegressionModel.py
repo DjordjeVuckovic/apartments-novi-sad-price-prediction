@@ -17,7 +17,6 @@ if __name__ == '__main__':
     y = data['Price(EUR)'].values
     s_scaler = StandardScaler()
     #X = s_scaler.fit_transform(X.astype(float))
-    print("----------------------------------------")
     print("Ridge regression\n")
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=101)
     X_train = s_scaler.fit_transform(X_train.astype(float))
@@ -68,6 +67,7 @@ if __name__ == '__main__':
     Y_price = data['Price(EUR)']
     rg = Ridge(alpha=10)
     rg.fit(X_area, Y_price)
-    coeff_df = pd.DataFrame(rg.coef_, X_area.columns, columns=['Coefficient'])
+    print("----------------------------------------")
     print("Area only score:",rg.score(X_area, Y_price))
+    coeff_df = pd.DataFrame(rg.coef_, X_area.columns, columns=['Coefficient'])
     print(coeff_df)
