@@ -17,6 +17,7 @@ pd.pandas.set_option('display.max_columns', None)
 
 if __name__ == '__main__':
     data = pd.read_csv('my_last_data.csv')
+    z =data.drop('Price(EUR)', axis=1)
     X = data.drop('Price(EUR)', axis=1).values
     y = data['Price(EUR)'].values
     min_max_scaler = MinMaxScaler().fit(X)
@@ -70,3 +71,8 @@ if __name__ == '__main__':
     preds = clf.predict(X_test)
     print(clf.score(X_train, y_train))
     print(clf.score(X_test, y_test))
+
+
+    feature_imp = pd.Series(clf.feature_importances_, index=z.columns).sort_values(ascending=False)
+    print(feature_imp)
+

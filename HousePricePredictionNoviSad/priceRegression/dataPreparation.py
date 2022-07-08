@@ -5,7 +5,7 @@ import seaborn as sns
 pd.pandas.set_option('display.max_columns', None)
 
 if __name__ == '__main__':
-    data = pd.read_csv('../dataSet/theFinalFinalPrediction.csv.')
+    data = pd.read_csv('../dataSet/categoricPrediction.csv.')
     features_nan = [feature for feature in data.columns if
                     data[feature].isnull().sum() > 1 and data[feature].dtypes == 'O']
     features_nan_numerical = [feature for feature in data.columns if
@@ -94,7 +94,7 @@ if __name__ == '__main__':
     print(final_df['Price(EUR)'].describe())
     min = data.loc[data['Price(EUR)'].idxmin()]
     print(min)
-    #final_df.to_csv('my_last_data.csv', index=False)
+    final_df.to_csv('my_last_categoric_data.csv', index=False)
 
     # feature_scale = [feature for feature in  data.columns if feature  in ['Rooms', 'Area(m2)', 'YearOfBuild']]
 

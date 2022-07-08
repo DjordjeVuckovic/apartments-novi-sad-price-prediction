@@ -1,3 +1,5 @@
+import math
+
 import pandas as pd
 import json
 
@@ -18,9 +20,13 @@ def calculate_price(price, lists):
     # print(spl)
     if len(spl) > 1:
         new_str = spl[0] + spl[1]
+        new_int = math.floor((int(new_str)/25000))
+        sttr = float(new_int)
     else:
         new_str = spl[0]
-    lists.append(new_str)
+        new_int = math.floor((int(new_str) / 25000))
+        sttr = float(new_int)
+    lists.append(sttr)
 
 
 def calculate_area(elem, areas):
@@ -133,5 +139,5 @@ if __name__ == '__main__':
                                                  'SetUp', 'Elevator', 'Stores', 'Area(m2)', 'Evident', 'State',
                                                  'Infrared', 'YearOfBuild',
                                                  'Floor'])  # creates dataframe of each tuple in list
-    temp_df.to_csv('theFinalFinalPrediction.csv', encoding='utf-8')
+    temp_df.to_csv('categoricPrediction.csv', encoding='utf-8')
     print(temp_df)
