@@ -7,6 +7,7 @@ import json
 def calculate_nums(price, lists):
     lists.append(price.split()[0])
 
+
 def calculate_floor(floor, lists):
     splits = floor.split()
     spl = splits[0].split("/")
@@ -20,13 +21,13 @@ def calculate_price(price, lists):
     # print(spl)
     if len(spl) > 1:
         new_str = spl[0] + spl[1]
-        new_int = math.floor((int(new_str)/25000))
+        new_int = math.floor((int(new_str) / 25000))
         sttr = float(new_int)
     else:
         new_str = spl[0]
         new_int = math.floor((int(new_str) / 25000))
         sttr = float(new_int)
-    lists.append(sttr)
+    lists.append(new_str)
 
 
 def calculate_area(elem, areas):
@@ -58,11 +59,12 @@ def parse_location(location, current_locations):
         else:
             locations.append(splited[1])
 
-def parseAdress(adress,addresses):
+
+def parseAdress(adress, addresses):
     if "centar" in adress.lower():
         addresses.append("Centar")
     elif "nova detelinara" in adress.lower():
-            addresses.append("Nova Detelinara")
+        addresses.append("Nova Detelinara")
     else:
         if adress[0] == ' ':
             addresses.append(adress[1:])

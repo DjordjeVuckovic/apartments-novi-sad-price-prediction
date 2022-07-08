@@ -13,7 +13,7 @@ if __name__ == '__main__':
     y = data['Price(EUR)'].values
     scaler = preprocessing.StandardScaler().fit(X)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=101)
-    model = MLPRegressor(hidden_layer_sizes=(200, 100, 100,), activation='relu', max_iter=1000, solver='lbfgs')
+    model = MLPRegressor(hidden_layer_sizes=(200, 100, 100, 66,), activation='relu', max_iter=1000, solver='adam')
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
     print('MAE:', metrics.mean_absolute_error(y_test, y_pred))

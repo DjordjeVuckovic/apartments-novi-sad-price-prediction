@@ -29,10 +29,11 @@ if __name__ == '__main__':
     model.add(Dense(66, activation='relu'))
     model.add(Dense(66, activation='relu'))
     model.add(Dense(66, activation='relu'))
+    model.add(Dense(66, activation='relu'))
     model.add(Dense(1))
 
     model.compile(loss='mean_squared_error', optimizer='adam', metrics=['accuracy'])
-    history = model.fit(X_train, y_train, epochs=200, batch_size=128, validation_data=(X_val, y_val))
+    history = model.fit(X_train, y_train, epochs=200, batch_size=66, validation_data=(X_val, y_val))
     model.summary()
 
     # plt.plot(history.history['accuracy'])

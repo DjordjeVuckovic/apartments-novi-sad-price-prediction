@@ -39,7 +39,7 @@ if __name__ == '__main__':
             href = elem.get_attribute('href')
             print(href)
             hrefs.append(href)
-        # time.sleep(1)
+        time.sleep(1)
         with open('../resources/links.csv', 'w', encoding='utf-8') as f:
             writer = csv.writer(f)
             for hr in hrefs:

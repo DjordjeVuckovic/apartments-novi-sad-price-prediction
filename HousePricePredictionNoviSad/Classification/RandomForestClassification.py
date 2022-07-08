@@ -34,7 +34,6 @@ if __name__ == '__main__':
     feature_imp = pd.Series(clf.feature_importances_, index=X_.columns).sort_values(ascending=False)
     print(feature_imp[:15])
     sort = clf.feature_importances_.argsort()
-    print(sort)
     fig = plt.figure(figsize=(15, 5))
     plt.barh(X_.columns[sort[-10:]], clf.feature_importances_[sort[-10:]])
     plt.xlabel("Feature Importance")
