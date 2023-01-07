@@ -12,11 +12,11 @@ The data will be split into training and testing sets, with the model being trai
 
 ## Methodology
 
-We used several models to find out which one performs best.We used regression,random forest,gradient boost and gradient boost models. Regression give us pretty solid results, but Gradient boost model performs best with score near 90%.We also tried to use feed foward neural network but this is typical regression problem and ann gived us bad results(model tends to overfitt).
+We used several models to find out which one performs best.We used regression,random forest,gradient boost and gradient boost models. Regression gave us pretty solid results, but gradient boost model performs best with score near 90%.We also tried to use feed foward neural network but this is typical regression problem and ann preformed  bad (model tends to overfitt pretty often).
 
 ## Evaluation
 
-We will evaluate the performance of the model using mean absolute error (MAE) and root mean squared error (RMSE). A lower error rate indicates a better performing model.
+We  evaluated the performance of the model using mean absolute error (MAE) and root mean squared error (RMSE). A lower error rate indicates a better performing model.
 
 ## Future Work
 
