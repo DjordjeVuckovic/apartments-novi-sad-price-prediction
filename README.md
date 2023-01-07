@@ -1,4 +1,4 @@
-# Project Title: Apartment Price Prediction
+## Apartment Price Prediction
 
 ## Overview
 
